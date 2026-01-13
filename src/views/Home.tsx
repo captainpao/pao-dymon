@@ -11,7 +11,8 @@ export function Home() {
             <div className='card-body'>
               <h5 className='card-title'>Online Mutual Fund</h5>
               <ul className='list-unstyled mb-0'>
-                <li><Link to="/counter">Counter</Link></li>
+                <li><Link to="/omf-discover-funds">Discover Funds</Link></li>
+                <li><Link to="/sample-page">Sample Page</Link></li>
               </ul>
             </div>
           </div>
@@ -25,7 +26,7 @@ export function Home() {
                 <li><Link to="/responsive-grid">Responsive Grid</Link></li>
                 <li><Link to="/icons-search">Icons Search</Link></li>
                 <li><Link to="/data-visualisation">Data Visualisation</Link></li>
-                <li><Link to="/sample-page">Sample Page</Link></li>
+                <li><Link to="/table-component">Table Component</Link></li>
               </ul>
             </div>
           </div>
