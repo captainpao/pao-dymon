@@ -27,7 +27,7 @@
     "name": "LionGlobal Singapore Growth Fund",
     "price": 1.95,
     "currency": "SGD",
-    "performance": "-2.18%",
+    "performance": "2.18%",
     "performanceType": "loss",
     "dividendYield": "3.20%",
     "oneYearVolatility": "12.45%",
@@ -45,7 +45,7 @@
     "oneYearVolatility": "8.92%",
     "riskRating": "3",
     "fundType": "Equity",
-    "fundSelect": true
+    "fundSelect": false
   },
   {
     "name": "DBS Asian Income Fund",
@@ -57,13 +57,13 @@
     "oneYearVolatility": "10.23%",
     "riskRating": "3",
     "fundType": "Equity",
-    "fundSelect": true
+    "fundSelect": false
   },
   {
     "name": "FSSA GEM Equity Fund",
     "price": 45.67,
     "currency": "USD",
-    "performance": "-7.89%",
+    "performance": "7.89%",
     "performanceType": "loss",
     "dividendYield": "1.45%",
     "oneYearVolatility": "15.67%",
@@ -79,19 +79,19 @@
     "oneYearVolatility": "11.34%",
     "riskRating": "4",
     "fundType": "Equity",
-    "fundSelect": true
+    "fundSelect": false
   },
   {
     "name": "Schroder Asian Growth Fund",
     "price": 28.45,
     "currency": "USD",
-    "performance": "-4.56%",
+    "performance": "4.56%",
     "performanceType": "loss",
     "dividendYield": "2.15%",
     "oneYearVolatility": "13.89%",
     "riskRating": "4",
     "fundType": "Equity",
-    "fundSelect": true
+    "fundSelect": false
   },
   {
     "name": "Fullerton SGD Cash Fund",
@@ -103,7 +103,7 @@
     "oneYearVolatility": "2.34%",
     "riskRating": "1",
     "fundType": "Equity",
-    "fundSelect": true
+    "fundSelect": false
   },
   {
     "name": "Janus Henderson Asian Dividend Fund",
@@ -115,6 +115,6 @@
     "oneYearVolatility": "9.45%",
     "riskRating": "3",
     "fundType": "Equity",
-    "fundSelect": true
+    "fundSelect": false
   }
 ]

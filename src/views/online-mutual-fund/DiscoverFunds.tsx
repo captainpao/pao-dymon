@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import fundsData from '../../data/funds-catalog.json';
 import { PaoTable } from '../../components/PaoTable';
+import { FaThLarge, FaListUl, FaCaretUp, FaCaretDown } from "react-icons/fa";
 
 export function DiscoverFunds() {
   const [sortField, setSortField] = useState<string | null>(null);
@@ -8,11 +9,13 @@ export function DiscoverFunds() {
   const [filterType, setFilterType] = useState<string>('all');
   const [filterCurrency, setFilterCurrency] = useState<string>('all');
   const [viewMode, setViewMode] = useState<'card' | 'table'>('card');
+  const [searchedFundName, setSearchedFundName] = useState('');
 
   const sortedAndFilteredFunds = useMemo(() => {
     let filtered = fundsData.filter(fund => {
       if (filterType !== 'all' && fund.fundType !== filterType) return false;
       if (filterCurrency !== 'all' && fund.currency !== filterCurrency) return false;
+      if (searchedFundName && !fund.name.toLowerCase().includes(searchedFundName.toLowerCase())) return false;
       return true;
     });
 
@@ -34,7 +37,7 @@ export function DiscoverFunds() {
     }
 
     return filtered;
-  }, [sortField, sortDirection, filterType, filterCurrency]);
+  }, [sortField, sortDirection, filterType, filterCurrency, searchedFundName]);
 
   const handleSort = (field: string) => {
     if (sortField === field) {
@@ -74,7 +77,7 @@ export function DiscoverFunds() {
   return (
     <div className='container p-3'>
       <div className='d-flex justify-content-between align-items-center mb-4'>
-        <h2>Discover Investment Funds ({sortedAndFilteredFunds.length} funds)</h2>
+        <h2>Discover ({sortedAndFilteredFunds.length} funds)</h2>
 
         <div className='btn-group' role='group'>
           <button
@@ -82,20 +85,29 @@ export function DiscoverFunds() {
             className={`btn btn-sm ${viewMode === 'card' ? 'btn-primary' : 'btn-outline-primary'}`}
             onClick={() => setViewMode('card')}
           >
-            Card View
+            <FaThLarge size={16} />
           </button>
           <button
             type='button'
             className={`btn btn-sm ${viewMode === 'table' ? 'btn-primary' : 'btn-outline-primary'}`}
             onClick={() => setViewMode('table')}
           >
-            Table View
+            <FaListUl size={16} />
           </button>
         </div>
       </div>
 
       {/* Filters */}
       <div className='row g-3 mb-4'>
+        <div className='col-12'>
+          <input
+            type='search'
+            className='form-control'
+            placeholder='Search fund name'
+            value={searchedFundName}
+            onChange={(e) => setSearchedFundName(e.target.value)}
+          />
+        </div>
         <div className='col-md-4'>
           <label className='form-label'>Filter by Type</label>
           <select
@@ -155,11 +167,12 @@ export function DiscoverFunds() {
             <div key={index} className='col-12 col-md-6 col-lg-4 mb-3'>
               <div className='card h-100 shadow-sm'>
                 <div className='card-body'>
-                  <div className='d-flex justify-content-between align-items-start mb-2'>
-                    <h6 className='card-title mb-0'>{fund.name}</h6>
-                    <span className={`badge bg-${fund.fundSelect ? 'success' : 'secondary'} px-2`}>
-                      {fund.fundSelect ? 'Fund Select' : 'Regular'}
-                    </span>
+                  <div className='d-flex justify-content-between mb-2'>
+                    <div>
+                      {fund.fundSelect ? <span className='badge bg-success px-2 mb-1'>Fund Select</span> : ''}
+                      <h6 className='card-title text-primary mb-0'>{fund.name}</h6>
+                    </div>
+                    <h5 className='text-nowrap'>{fund.currency} {fund.price.toFixed(2)}</h5>
                   </div>
 
                   <div className='row g-1 mb-3'>
@@ -172,19 +185,20 @@ export function DiscoverFunds() {
                       <div className={`fw-semibold ${
                         fund.performanceType === 'gain' ? 'text-success' : 'text-danger'
                       }`}>
-                        {fund.performanceType === 'gain' ? '+' : ''}{fund.performance}
+                        {fund.performance}{fund.performanceType === 'gain' ? <FaCaretUp /> : <FaCaretDown />}
                       </div>
                     </div>
                     <div className='col-6'>
-                      <small className='text-muted'>Dividend</small>
+                      <small className='text-muted'>Dividend Yield</small>
                       <div className='fw-semibold'>{fund.dividendYield}</div>
                     </div>
                     <div className='col-6'>
-                      <small className='text-muted'>Risk</small>
-                      <div>
+                      <small className='text-muted'>Risk Rating</small>
+                      {/* <div>
                         {'★'.repeat(parseInt(fund.riskRating))}
                         {'☆'.repeat(5 - parseInt(fund.riskRating))}
-                      </div>
+                      </div> */}
+                      <div className='fw-semibold'>{fund.riskRating}</div>
                     </div>
                   </div>
 
