@@ -1,38 +1,11 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
-import { Counter } from './features/counter/Counter'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Home } from './views/Home'
+import { CounterPage } from './views/sandbox/CounterPage'
+import { ResponsiveGrid } from './views/sandbox/ResponsiveGrid'
+import { IconsSearch } from './views/sandbox/IconsSearch'
+import { DataVisualisation } from './views/sandbox/DataVisualisation'
+import { SamplePage } from './views/sandbox/SamplePage'
 import './App.css'
-
-function Home() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className='text-primary'>Asia Unlocked</h1>
-        <p>Welcome to this Vite + React + TypeScript + Redux + React Router app!</p>
-        <nav>
-          <Link to="/counter" className="App-link">
-            Go to Counter Page
-          </Link>
-        </nav>
-      </header>
-    </div>
-  )
-}
-
-function CounterPage() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className='text-primary'>Counter Example</h1>
-        <Counter />
-        <nav>
-          <Link to="/" className="App-link">
-            Back to Home
-          </Link>
-        </nav>
-      </header>
-    </div>
-  )
-}
 
 function App() {
   return (
@@ -40,6 +13,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<CounterPage />} />
+        <Route path="/responsive-grid" element={<ResponsiveGrid />} />
+        <Route path="/icons-search" element={<IconsSearch />} />
+        <Route path="/data-visualisation" element={<DataVisualisation />} />
+        <Route path="/sample-page" element={<SamplePage />} />
       </Routes>
     </BrowserRouter>
   )

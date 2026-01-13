@@ -11,28 +11,24 @@ export function Counter() {
 
   return (
     <div>
-      <div>
-        <button
-          aria-label="Decrement value"
-          onClick={() => dispatch(decrement())}
-        >
-          -
-        </button>
-        <span>{count}</span>
-        <button
-          aria-label="Increment value"
-          onClick={() => dispatch(increment())}
-        >
-          +
-        </button>
+      <div className="input-group mb-3">
+        <button className="btn btn-outline-secondary" type="button" id="button-addon1" onClick={() => dispatch(decrement())}>-</button>
+        <input type="text" className="form-control text-center" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value={count} readOnly />
+        <button className="btn btn-outline-secondary" type="button" id="button-addon1" onClick={() => dispatch(increment())}>+</button>
       </div>
-      <div>
-        <input
-          aria-label="Set increment amount"
+      <div className="input-group mb-3">
+        <input 
+          type="text" 
+          className="form-control" 
+          placeholder="Enter amount" 
+          aria-label="Enter amount" 
+          aria-describedby="button-addon2" 
           value={incrementAmount}
           onChange={(e) => setIncrementAmount(e.target.value)}
         />
-        <button
+        <button 
+          className="btn btn-primary" 
+          type="button" 
           onClick={() => dispatch(incrementByAmount(incrementValue))}
         >
           Add Amount

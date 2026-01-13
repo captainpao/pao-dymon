@@ -1,0 +1,6446 @@
+[
+  {
+    "icon": "Fa500Px",
+    "name": "500px"
+  },
+  {
+    "icon": "FaAccessibleIcon",
+    "name": "accessible-icon"
+  },
+  {
+    "icon": "FaAccusoft",
+    "name": "accusoft"
+  },
+  {
+    "icon": "FaAcquisitionsIncorporated",
+    "name": "acquisitions-incorporated"
+  },
+  {
+    "icon": "FaAdn",
+    "name": "adn"
+  },
+  {
+    "icon": "FaAdversal",
+    "name": "adversal"
+  },
+  {
+    "icon": "FaAffiliatetheme",
+    "name": "affiliatetheme"
+  },
+  {
+    "icon": "FaAirbnb",
+    "name": "airbnb"
+  },
+  {
+    "icon": "FaAlgolia",
+    "name": "algolia"
+  },
+  {
+    "icon": "FaAlipay",
+    "name": "alipay"
+  },
+  {
+    "icon": "FaAmazonPay",
+    "name": "amazon-pay"
+  },
+  {
+    "icon": "FaAmazon",
+    "name": "amazon"
+  },
+  {
+    "icon": "FaAmilia",
+    "name": "amilia"
+  },
+  {
+    "icon": "FaAndroid",
+    "name": "android"
+  },
+  {
+    "icon": "FaAngellist",
+    "name": "angellist"
+  },
+  {
+    "icon": "FaAngrycreative",
+    "name": "angrycreative"
+  },
+  {
+    "icon": "FaAngular",
+    "name": "angular"
+  },
+  {
+    "icon": "FaAppStoreIos",
+    "name": "app-store-ios"
+  },
+  {
+    "icon": "FaAppStore",
+    "name": "app-store"
+  },
+  {
+    "icon": "FaApper",
+    "name": "apper"
+  },
+  {
+    "icon": "FaApplePay",
+    "name": "apple-pay"
+  },
+  {
+    "icon": "FaApple",
+    "name": "apple"
+  },
+  {
+    "icon": "FaArtstation",
+    "name": "artstation"
+  },
+  {
+    "icon": "FaAsymmetrik",
+    "name": "asymmetrik"
+  },
+  {
+    "icon": "FaAtlassian",
+    "name": "atlassian"
+  },
+  {
+    "icon": "FaAudible",
+    "name": "audible"
+  },
+  {
+    "icon": "FaAutoprefixer",
+    "name": "autoprefixer"
+  },
+  {
+    "icon": "FaAvianex",
+    "name": "avianex"
+  },
+  {
+    "icon": "FaAviato",
+    "name": "aviato"
+  },
+  {
+    "icon": "FaAws",
+    "name": "aws"
+  },
+  {
+    "icon": "FaBandcamp",
+    "name": "bandcamp"
+  },
+  {
+    "icon": "FaBattleNet",
+    "name": "battle-net"
+  },
+  {
+    "icon": "FaBehanceSquare",
+    "name": "behance-square"
+  },
+  {
+    "icon": "FaBehance",
+    "name": "behance"
+  },
+  {
+    "icon": "FaBimobject",
+    "name": "bimobject"
+  },
+  {
+    "icon": "FaBitbucket",
+    "name": "bitbucket"
+  },
+  {
+    "icon": "FaBitcoin",
+    "name": "bitcoin"
+  },
+  {
+    "icon": "FaBity",
+    "name": "bity"
+  },
+  {
+    "icon": "FaBlackTie",
+    "name": "black-tie"
+  },
+  {
+    "icon": "FaBlackberry",
+    "name": "blackberry"
+  },
+  {
+    "icon": "FaBloggerB",
+    "name": "blogger-b"
+  },
+  {
+    "icon": "FaBlogger",
+    "name": "blogger"
+  },
+  {
+    "icon": "FaBluetoothB",
+    "name": "bluetooth-b"
+  },
+  {
+    "icon": "FaBluetooth",
+    "name": "bluetooth"
+  },
+  {
+    "icon": "FaBootstrap",
+    "name": "bootstrap"
+  },
+  {
+    "icon": "FaBtc",
+    "name": "btc"
+  },
+  {
+    "icon": "FaBuffer",
+    "name": "buffer"
+  },
+  {
+    "icon": "FaBuromobelexperte",
+    "name": "buromobelexperte"
+  },
+  {
+    "icon": "FaBuyNLarge",
+    "name": "buy-n-large"
+  },
+  {
+    "icon": "FaBuysellads",
+    "name": "buysellads"
+  },
+  {
+    "icon": "FaCanadianMapleLeaf",
+    "name": "canadian-maple-leaf"
+  },
+  {
+    "icon": "FaCcAmazonPay",
+    "name": "cc-amazon-pay"
+  },
+  {
+    "icon": "FaCcAmex",
+    "name": "cc-amex"
+  },
+  {
+    "icon": "FaCcApplePay",
+    "name": "cc-apple-pay"
+  },
+  {
+    "icon": "FaCcDinersClub",
+    "name": "cc-diners-club"
+  },
+  {
+    "icon": "FaCcDiscover",
+    "name": "cc-discover"
+  },
+  {
+    "icon": "FaCcJcb",
+    "name": "cc-jcb"
+  },
+  {
+    "icon": "FaCcMastercard",
+    "name": "cc-mastercard"
+  },
+  {
+    "icon": "FaCcPaypal",
+    "name": "cc-paypal"
+  },
+  {
+    "icon": "FaCcStripe",
+    "name": "cc-stripe"
+  },
+  {
+    "icon": "FaCcVisa",
+    "name": "cc-visa"
+  },
+  {
+    "icon": "FaCentercode",
+    "name": "centercode"
+  },
+  {
+    "icon": "FaCentos",
+    "name": "centos"
+  },
+  {
+    "icon": "FaChrome",
+    "name": "chrome"
+  },
+  {
+    "icon": "FaChromecast",
+    "name": "chromecast"
+  },
+  {
+    "icon": "FaCloudflare",
+    "name": "cloudflare"
+  },
+  {
+    "icon": "FaCloudscale",
+    "name": "cloudscale"
+  },
+  {
+    "icon": "FaCloudsmith",
+    "name": "cloudsmith"
+  },
+  {
+    "icon": "FaCloudversify",
+    "name": "cloudversify"
+  },
+  {
+    "icon": "FaCodepen",
+    "name": "codepen"
+  },
+  {
+    "icon": "FaCodiepie",
+    "name": "codiepie"
+  },
+  {
+    "icon": "FaConfluence",
+    "name": "confluence"
+  },
+  {
+    "icon": "FaConnectdevelop",
+    "name": "connectdevelop"
+  },
+  {
+    "icon": "FaContao",
+    "name": "contao"
+  },
+  {
+    "icon": "FaCottonBureau",
+    "name": "cotton-bureau"
+  },
+  {
+    "icon": "FaCpanel",
+    "name": "cpanel"
+  },
+  {
+    "icon": "FaCreativeCommonsBy",
+    "name": "creative-commons-by"
+  },
+  {
+    "icon": "FaCreativeCommonsNcEu",
+    "name": "creative-commons-nc-eu"
+  },
+  {
+    "icon": "FaCreativeCommonsNcJp",
+    "name": "creative-commons-nc-jp"
+  },
+  {
+    "icon": "FaCreativeCommonsNc",
+    "name": "creative-commons-nc"
+  },
+  {
+    "icon": "FaCreativeCommonsNd",
+    "name": "creative-commons-nd"
+  },
+  {
+    "icon": "FaCreativeCommonsPdAlt",
+    "name": "creative-commons-pd-alt"
+  },
+  {
+    "icon": "FaCreativeCommonsPd",
+    "name": "creative-commons-pd"
+  },
+  {
+    "icon": "FaCreativeCommonsRemix",
+    "name": "creative-commons-remix"
+  },
+  {
+    "icon": "FaCreativeCommonsSa",
+    "name": "creative-commons-sa"
+  },
+  {
+    "icon": "FaCreativeCommonsSamplingPlus",
+    "name": "creative-commons-sampling-plus"
+  },
+  {
+    "icon": "FaCreativeCommonsSampling",
+    "name": "creative-commons-sampling"
+  },
+  {
+    "icon": "FaCreativeCommonsShare",
+    "name": "creative-commons-share"
+  },
+  {
+    "icon": "FaCreativeCommonsZero",
+    "name": "creative-commons-zero"
+  },
+  {
+    "icon": "FaCreativeCommons",
+    "name": "creative-commons"
+  },
+  {
+    "icon": "FaCriticalRole",
+    "name": "critical-role"
+  },
+  {
+    "icon": "FaCss3Alt",
+    "name": "css3alt"
+  },
+  {
+    "icon": "FaCss3",
+    "name": "css3"
+  },
+  {
+    "icon": "FaCuttlefish",
+    "name": "cuttlefish"
+  },
+  {
+    "icon": "FaDAndDBeyond",
+    "name": "d-and-d-beyond"
+  },
+  {
+    "icon": "FaDAndD",
+    "name": "d-and-d"
+  },
+  {
+    "icon": "FaDailymotion",
+    "name": "dailymotion"
+  },
+  {
+    "icon": "FaDashcube",
+    "name": "dashcube"
+  },
+  {
+    "icon": "FaDeezer",
+    "name": "deezer"
+  },
+  {
+    "icon": "FaDelicious",
+    "name": "delicious"
+  },
+  {
+    "icon": "FaDeploydog",
+    "name": "deploydog"
+  },
+  {
+    "icon": "FaDeskpro",
+    "name": "deskpro"
+  },
+  {
+    "icon": "FaDev",
+    "name": "dev"
+  },
+  {
+    "icon": "FaDeviantart",
+    "name": "deviantart"
+  },
+  {
+    "icon": "FaDhl",
+    "name": "dhl"
+  },
+  {
+    "icon": "FaDiaspora",
+    "name": "diaspora"
+  },
+  {
+    "icon": "FaDigg",
+    "name": "digg"
+  },
+  {
+    "icon": "FaDigitalOcean",
+    "name": "digital-ocean"
+  },
+  {
+    "icon": "FaDiscord",
+    "name": "discord"
+  },
+  {
+    "icon": "FaDiscourse",
+    "name": "discourse"
+  },
+  {
+    "icon": "FaDochub",
+    "name": "dochub"
+  },
+  {
+    "icon": "FaDocker",
+    "name": "docker"
+  },
+  {
+    "icon": "FaDraft2Digital",
+    "name": "draft2digital"
+  },
+  {
+    "icon": "FaDribbbleSquare",
+    "name": "dribbble-square"
+  },
+  {
+    "icon": "FaDribbble",
+    "name": "dribbble"
+  },
+  {
+    "icon": "FaDropbox",
+    "name": "dropbox"
+  },
+  {
+    "icon": "FaDrupal",
+    "name": "drupal"
+  },
+  {
+    "icon": "FaDyalog",
+    "name": "dyalog"
+  },
+  {
+    "icon": "FaEarlybirds",
+    "name": "earlybirds"
+  },
+  {
+    "icon": "FaEbay",
+    "name": "ebay"
+  },
+  {
+    "icon": "FaEdgeLegacy",
+    "name": "edge-legacy"
+  },
+  {
+    "icon": "FaEdge",
+    "name": "edge"
+  },
+  {
+    "icon": "FaElementor",
+    "name": "elementor"
+  },
+  {
+    "icon": "FaEllo",
+    "name": "ello"
+  },
+  {
+    "icon": "FaEmber",
+    "name": "ember"
+  },
+  {
+    "icon": "FaEmpire",
+    "name": "empire"
+  },
+  {
+    "icon": "FaEnvira",
+    "name": "envira"
+  },
+  {
+    "icon": "FaErlang",
+    "name": "erlang"
+  },
+  {
+    "icon": "FaEthereum",
+    "name": "ethereum"
+  },
+  {
+    "icon": "FaEtsy",
+    "name": "etsy"
+  },
+  {
+    "icon": "FaEvernote",
+    "name": "evernote"
+  },
+  {
+    "icon": "FaExpeditedssl",
+    "name": "expeditedssl"
+  },
+  {
+    "icon": "FaFacebookF",
+    "name": "facebook-f"
+  },
+  {
+    "icon": "FaFacebookMessenger",
+    "name": "facebook-messenger"
+  },
+  {
+    "icon": "FaFacebookSquare",
+    "name": "facebook-square"
+  },
+  {
+    "icon": "FaFacebook",
+    "name": "facebook"
+  },
+  {
+    "icon": "FaFantasyFlightGames",
+    "name": "fantasy-flight-games"
+  },
+  {
+    "icon": "FaFedex",
+    "name": "fedex"
+  },
+  {
+    "icon": "FaFedora",
+    "name": "fedora"
+  },
+  {
+    "icon": "FaFigma",
+    "name": "figma"
+  },
+  {
+    "icon": "FaFirefoxBrowser",
+    "name": "firefox-browser"
+  },
+  {
+    "icon": "FaFirefox",
+    "name": "firefox"
+  },
+  {
+    "icon": "FaFirstOrderAlt",
+    "name": "first-order-alt"
+  },
+  {
+    "icon": "FaFirstOrder",
+    "name": "first-order"
+  },
+  {
+    "icon": "FaFirstdraft",
+    "name": "firstdraft"
+  },
+  {
+    "icon": "FaFlickr",
+    "name": "flickr"
+  },
+  {
+    "icon": "FaFlipboard",
+    "name": "flipboard"
+  },
+  {
+    "icon": "FaFly",
+    "name": "fly"
+  },
+  {
+    "icon": "FaFontAwesomeAlt",
+    "name": "font-awesome-alt"
+  },
+  {
+    "icon": "FaFontAwesomeFlag",
+    "name": "font-awesome-flag"
+  },
+  {
+    "icon": "FaFontAwesomeLogoFull",
+    "name": "font-awesome-logo-full"
+  },
+  {
+    "icon": "FaFontAwesome",
+    "name": "font-awesome"
+  },
+  {
+    "icon": "FaFonticonsFi",
+    "name": "fonticons-fi"
+  },
+  {
+    "icon": "FaFonticons",
+    "name": "fonticons"
+  },
+  {
+    "icon": "FaFortAwesomeAlt",
+    "name": "fort-awesome-alt"
+  },
+  {
+    "icon": "FaFortAwesome",
+    "name": "fort-awesome"
+  },
+  {
+    "icon": "FaForumbee",
+    "name": "forumbee"
+  },
+  {
+    "icon": "FaFoursquare",
+    "name": "foursquare"
+  },
+  {
+    "icon": "FaFreeCodeCamp",
+    "name": "free-code-camp"
+  },
+  {
+    "icon": "FaFreebsd",
+    "name": "freebsd"
+  },
+  {
+    "icon": "FaFulcrum",
+    "name": "fulcrum"
+  },
+  {
+    "icon": "FaGalacticRepublic",
+    "name": "galactic-republic"
+  },
+  {
+    "icon": "FaGalacticSenate",
+    "name": "galactic-senate"
+  },
+  {
+    "icon": "FaGetPocket",
+    "name": "get-pocket"
+  },
+  {
+    "icon": "FaGgCircle",
+    "name": "gg-circle"
+  },
+  {
+    "icon": "FaGg",
+    "name": "gg"
+  },
+  {
+    "icon": "FaGitAlt",
+    "name": "git-alt"
+  },
+  {
+    "icon": "FaGitSquare",
+    "name": "git-square"
+  },
+  {
+    "icon": "FaGit",
+    "name": "git"
+  },
+  {
+    "icon": "FaGithubAlt",
+    "name": "github-alt"
+  },
+  {
+    "icon": "FaGithubSquare",
+    "name": "github-square"
+  },
+  {
+    "icon": "FaGithub",
+    "name": "github"
+  },
+  {
+    "icon": "FaGitkraken",
+    "name": "gitkraken"
+  },
+  {
+    "icon": "FaGitlab",
+    "name": "gitlab"
+  },
+  {
+    "icon": "FaGitter",
+    "name": "gitter"
+  },
+  {
+    "icon": "FaGlideG",
+    "name": "glide-g"
+  },
+  {
+    "icon": "FaGlide",
+    "name": "glide"
+  },
+  {
+    "icon": "FaGofore",
+    "name": "gofore"
+  },
+  {
+    "icon": "FaGoodreadsG",
+    "name": "goodreads-g"
+  },
+  {
+    "icon": "FaGoodreads",
+    "name": "goodreads"
+  },
+  {
+    "icon": "FaGoogleDrive",
+    "name": "google-drive"
+  },
+  {
+    "icon": "FaGooglePay",
+    "name": "google-pay"
+  },
+  {
+    "icon": "FaGooglePlay",
+    "name": "google-play"
+  },
+  {
+    "icon": "FaGooglePlusG",
+    "name": "google-plus-g"
+  },
+  {
+    "icon": "FaGooglePlusSquare",
+    "name": "google-plus-square"
+  },
+  {
+    "icon": "FaGooglePlus",
+    "name": "google-plus"
+  },
+  {
+    "icon": "FaGoogleWallet",
+    "name": "google-wallet"
+  },
+  {
+    "icon": "FaGoogle",
+    "name": "google"
+  },
+  {
+    "icon": "FaGratipay",
+    "name": "gratipay"
+  },
+  {
+    "icon": "FaGrav",
+    "name": "grav"
+  },
+  {
+    "icon": "FaGripfire",
+    "name": "gripfire"
+  },
+  {
+    "icon": "FaGrunt",
+    "name": "grunt"
+  },
+  {
+    "icon": "FaGuilded",
+    "name": "guilded"
+  },
+  {
+    "icon": "FaGulp",
+    "name": "gulp"
+  },
+  {
+    "icon": "FaHackerNewsSquare",
+    "name": "hacker-news-square"
+  },
+  {
+    "icon": "FaHackerNews",
+    "name": "hacker-news"
+  },
+  {
+    "icon": "FaHackerrank",
+    "name": "hackerrank"
+  },
+  {
+    "icon": "FaHips",
+    "name": "hips"
+  },
+  {
+    "icon": "FaHireAHelper",
+    "name": "hire-a-helper"
+  },
+  {
+    "icon": "FaHive",
+    "name": "hive"
+  },
+  {
+    "icon": "FaHooli",
+    "name": "hooli"
+  },
+  {
+    "icon": "FaHornbill",
+    "name": "hornbill"
+  },
+  {
+    "icon": "FaHotjar",
+    "name": "hotjar"
+  },
+  {
+    "icon": "FaHouzz",
+    "name": "houzz"
+  },
+  {
+    "icon": "FaHtml5",
+    "name": "html5"
+  },
+  {
+    "icon": "FaHubspot",
+    "name": "hubspot"
+  },
+  {
+    "icon": "FaIdeal",
+    "name": "ideal"
+  },
+  {
+    "icon": "FaImdb",
+    "name": "imdb"
+  },
+  {
+    "icon": "FaInnosoft",
+    "name": "innosoft"
+  },
+  {
+    "icon": "FaInstagramSquare",
+    "name": "instagram-square"
+  },
+  {
+    "icon": "FaInstagram",
+    "name": "instagram"
+  },
+  {
+    "icon": "FaInstalod",
+    "name": "instalod"
+  },
+  {
+    "icon": "FaIntercom",
+    "name": "intercom"
+  },
+  {
+    "icon": "FaInternetExplorer",
+    "name": "internet-explorer"
+  },
+  {
+    "icon": "FaInvision",
+    "name": "invision"
+  },
+  {
+    "icon": "FaIoxhost",
+    "name": "ioxhost"
+  },
+  {
+    "icon": "FaItchIo",
+    "name": "itch-io"
+  },
+  {
+    "icon": "FaItunesNote",
+    "name": "itunes-note"
+  },
+  {
+    "icon": "FaItunes",
+    "name": "itunes"
+  },
+  {
+    "icon": "FaJava",
+    "name": "java"
+  },
+  {
+    "icon": "FaJediOrder",
+    "name": "jedi-order"
+  },
+  {
+    "icon": "FaJenkins",
+    "name": "jenkins"
+  },
+  {
+    "icon": "FaJira",
+    "name": "jira"
+  },
+  {
+    "icon": "FaJoget",
+    "name": "joget"
+  },
+  {
+    "icon": "FaJoomla",
+    "name": "joomla"
+  },
+  {
+    "icon": "FaJsSquare",
+    "name": "js-square"
+  },
+  {
+    "icon": "FaJs",
+    "name": "js"
+  },
+  {
+    "icon": "FaJsfiddle",
+    "name": "jsfiddle"
+  },
+  {
+    "icon": "FaKaggle",
+    "name": "kaggle"
+  },
+  {
+    "icon": "FaKeybase",
+    "name": "keybase"
+  },
+  {
+    "icon": "FaKeycdn",
+    "name": "keycdn"
+  },
+  {
+    "icon": "FaKickstarterK",
+    "name": "kickstarter-k"
+  },
+  {
+    "icon": "FaKickstarter",
+    "name": "kickstarter"
+  },
+  {
+    "icon": "FaKorvue",
+    "name": "korvue"
+  },
+  {
+    "icon": "FaLaravel",
+    "name": "laravel"
+  },
+  {
+    "icon": "FaLastfmSquare",
+    "name": "lastfm-square"
+  },
+  {
+    "icon": "FaLastfm",
+    "name": "lastfm"
+  },
+  {
+    "icon": "FaLeanpub",
+    "name": "leanpub"
+  },
+  {
+    "icon": "FaLess",
+    "name": "less"
+  },
+  {
+    "icon": "FaLine",
+    "name": "line"
+  },
+  {
+    "icon": "FaLinkedinIn",
+    "name": "linkedin-in"
+  },
+  {
+    "icon": "FaLinkedin",
+    "name": "linkedin"
+  },
+  {
+    "icon": "FaLinode",
+    "name": "linode"
+  },
+  {
+    "icon": "FaLinux",
+    "name": "linux"
+  },
+  {
+    "icon": "FaLyft",
+    "name": "lyft"
+  },
+  {
+    "icon": "FaMagento",
+    "name": "magento"
+  },
+  {
+    "icon": "FaMailchimp",
+    "name": "mailchimp"
+  },
+  {
+    "icon": "FaMandalorian",
+    "name": "mandalorian"
+  },
+  {
+    "icon": "FaMarkdown",
+    "name": "markdown"
+  },
+  {
+    "icon": "FaMastodon",
+    "name": "mastodon"
+  },
+  {
+    "icon": "FaMaxcdn",
+    "name": "maxcdn"
+  },
+  {
+    "icon": "FaMdb",
+    "name": "mdb"
+  },
+  {
+    "icon": "FaMedapps",
+    "name": "medapps"
+  },
+  {
+    "icon": "FaMediumM",
+    "name": "medium-m"
+  },
+  {
+    "icon": "FaMedium",
+    "name": "medium"
+  },
+  {
+    "icon": "FaMedrt",
+    "name": "medrt"
+  },
+  {
+    "icon": "FaMeetup",
+    "name": "meetup"
+  },
+  {
+    "icon": "FaMegaport",
+    "name": "megaport"
+  },
+  {
+    "icon": "FaMendeley",
+    "name": "mendeley"
+  },
+  {
+    "icon": "FaMicroblog",
+    "name": "microblog"
+  },
+  {
+    "icon": "FaMicrosoft",
+    "name": "microsoft"
+  },
+  {
+    "icon": "FaMix",
+    "name": "mix"
+  },
+  {
+    "icon": "FaMixcloud",
+    "name": "mixcloud"
+  },
+  {
+    "icon": "FaMixer",
+    "name": "mixer"
+  },
+  {
+    "icon": "FaMizuni",
+    "name": "mizuni"
+  },
+  {
+    "icon": "FaModx",
+    "name": "modx"
+  },
+  {
+    "icon": "FaMonero",
+    "name": "monero"
+  },
+  {
+    "icon": "FaNapster",
+    "name": "napster"
+  },
+  {
+    "icon": "FaNeos",
+    "name": "neos"
+  },
+  {
+    "icon": "FaNimblr",
+    "name": "nimblr"
+  },
+  {
+    "icon": "FaNodeJs",
+    "name": "node-js"
+  },
+  {
+    "icon": "FaNode",
+    "name": "node"
+  },
+  {
+    "icon": "FaNpm",
+    "name": "npm"
+  },
+  {
+    "icon": "FaNs8",
+    "name": "ns8"
+  },
+  {
+    "icon": "FaNutritionix",
+    "name": "nutritionix"
+  },
+  {
+    "icon": "FaOctopusDeploy",
+    "name": "octopus-deploy"
+  },
+  {
+    "icon": "FaOdnoklassnikiSquare",
+    "name": "odnoklassniki-square"
+  },
+  {
+    "icon": "FaOdnoklassniki",
+    "name": "odnoklassniki"
+  },
+  {
+    "icon": "FaOldRepublic",
+    "name": "old-republic"
+  },
+  {
+    "icon": "FaOpencart",
+    "name": "opencart"
+  },
+  {
+    "icon": "FaOpenid",
+    "name": "openid"
+  },
+  {
+    "icon": "FaOpera",
+    "name": "opera"
+  },
+  {
+    "icon": "FaOptinMonster",
+    "name": "optin-monster"
+  },
+  {
+    "icon": "FaOrcid",
+    "name": "orcid"
+  },
+  {
+    "icon": "FaOsi",
+    "name": "osi"
+  },
+  {
+    "icon": "FaPage4",
+    "name": "page4"
+  },
+  {
+    "icon": "FaPagelines",
+    "name": "pagelines"
+  },
+  {
+    "icon": "FaPalfed",
+    "name": "palfed"
+  },
+  {
+    "icon": "FaPatreon",
+    "name": "patreon"
+  },
+  {
+    "icon": "FaPaypal",
+    "name": "paypal"
+  },
+  {
+    "icon": "FaPennyArcade",
+    "name": "penny-arcade"
+  },
+  {
+    "icon": "FaPerbyte",
+    "name": "perbyte"
+  },
+  {
+    "icon": "FaPeriscope",
+    "name": "periscope"
+  },
+  {
+    "icon": "FaPhabricator",
+    "name": "phabricator"
+  },
+  {
+    "icon": "FaPhoenixFramework",
+    "name": "phoenix-framework"
+  },
+  {
+    "icon": "FaPhoenixSquadron",
+    "name": "phoenix-squadron"
+  },
+  {
+    "icon": "FaPhp",
+    "name": "php"
+  },
+  {
+    "icon": "FaPiedPiperAlt",
+    "name": "pied-piper-alt"
+  },
+  {
+    "icon": "FaPiedPiperHat",
+    "name": "pied-piper-hat"
+  },
+  {
+    "icon": "FaPiedPiperPp",
+    "name": "pied-piper-pp"
+  },
+  {
+    "icon": "FaPiedPiperSquare",
+    "name": "pied-piper-square"
+  },
+  {
+    "icon": "FaPiedPiper",
+    "name": "pied-piper"
+  },
+  {
+    "icon": "FaPinterestP",
+    "name": "pinterest-p"
+  },
+  {
+    "icon": "FaPinterestSquare",
+    "name": "pinterest-square"
+  },
+  {
+    "icon": "FaPinterest",
+    "name": "pinterest"
+  },
+  {
+    "icon": "FaPlaystation",
+    "name": "playstation"
+  },
+  {
+    "icon": "FaProductHunt",
+    "name": "product-hunt"
+  },
+  {
+    "icon": "FaPushed",
+    "name": "pushed"
+  },
+  {
+    "icon": "FaPython",
+    "name": "python"
+  },
+  {
+    "icon": "FaQq",
+    "name": "qq"
+  },
+  {
+    "icon": "FaQuinscape",
+    "name": "quinscape"
+  },
+  {
+    "icon": "FaQuora",
+    "name": "quora"
+  },
+  {
+    "icon": "FaRProject",
+    "name": "r-project"
+  },
+  {
+    "icon": "FaRaspberryPi",
+    "name": "raspberry-pi"
+  },
+  {
+    "icon": "FaRavelry",
+    "name": "ravelry"
+  },
+  {
+    "icon": "FaReact",
+    "name": "react"
+  },
+  {
+    "icon": "FaReacteurope",
+    "name": "reacteurope"
+  },
+  {
+    "icon": "FaReadme",
+    "name": "readme"
+  },
+  {
+    "icon": "FaRebel",
+    "name": "rebel"
+  },
+  {
+    "icon": "FaRedRiver",
+    "name": "red-river"
+  },
+  {
+    "icon": "FaRedditAlien",
+    "name": "reddit-alien"
+  },
+  {
+    "icon": "FaRedditSquare",
+    "name": "reddit-square"
+  },
+  {
+    "icon": "FaReddit",
+    "name": "reddit"
+  },
+  {
+    "icon": "FaRedhat",
+    "name": "redhat"
+  },
+  {
+    "icon": "FaRenren",
+    "name": "renren"
+  },
+  {
+    "icon": "FaReplyd",
+    "name": "replyd"
+  },
+  {
+    "icon": "FaResearchgate",
+    "name": "researchgate"
+  },
+  {
+    "icon": "FaResolving",
+    "name": "resolving"
+  },
+  {
+    "icon": "FaRev",
+    "name": "rev"
+  },
+  {
+    "icon": "FaRocketchat",
+    "name": "rocketchat"
+  },
+  {
+    "icon": "FaRockrms",
+    "name": "rockrms"
+  },
+  {
+    "icon": "FaRust",
+    "name": "rust"
+  },
+  {
+    "icon": "FaSafari",
+    "name": "safari"
+  },
+  {
+    "icon": "FaSalesforce",
+    "name": "salesforce"
+  },
+  {
+    "icon": "FaSass",
+    "name": "sass"
+  },
+  {
+    "icon": "FaSchlix",
+    "name": "schlix"
+  },
+  {
+    "icon": "FaScribd",
+    "name": "scribd"
+  },
+  {
+    "icon": "FaSearchengin",
+    "name": "searchengin"
+  },
+  {
+    "icon": "FaSellcast",
+    "name": "sellcast"
+  },
+  {
+    "icon": "FaSellsy",
+    "name": "sellsy"
+  },
+  {
+    "icon": "FaServicestack",
+    "name": "servicestack"
+  },
+  {
+    "icon": "FaShirtsinbulk",
+    "name": "shirtsinbulk"
+  },
+  {
+    "icon": "FaShopify",
+    "name": "shopify"
+  },
+  {
+    "icon": "FaShopware",
+    "name": "shopware"
+  },
+  {
+    "icon": "FaSimplybuilt",
+    "name": "simplybuilt"
+  },
+  {
+    "icon": "FaSistrix",
+    "name": "sistrix"
+  },
+  {
+    "icon": "FaSith",
+    "name": "sith"
+  },
+  {
+    "icon": "FaSketch",
+    "name": "sketch"
+  },
+  {
+    "icon": "FaSkyatlas",
+    "name": "skyatlas"
+  },
+  {
+    "icon": "FaSkype",
+    "name": "skype"
+  },
+  {
+    "icon": "FaSlackHash",
+    "name": "slack-hash"
+  },
+  {
+    "icon": "FaSlack",
+    "name": "slack"
+  },
+  {
+    "icon": "FaSlideshare",
+    "name": "slideshare"
+  },
+  {
+    "icon": "FaSnapchatGhost",
+    "name": "snapchat-ghost"
+  },
+  {
+    "icon": "FaSnapchatSquare",
+    "name": "snapchat-square"
+  },
+  {
+    "icon": "FaSnapchat",
+    "name": "snapchat"
+  },
+  {
+    "icon": "FaSoundcloud",
+    "name": "soundcloud"
+  },
+  {
+    "icon": "FaSourcetree",
+    "name": "sourcetree"
+  },
+  {
+    "icon": "FaSpeakap",
+    "name": "speakap"
+  },
+  {
+    "icon": "FaSpeakerDeck",
+    "name": "speaker-deck"
+  },
+  {
+    "icon": "FaSpotify",
+    "name": "spotify"
+  },
+  {
+    "icon": "FaSquarespace",
+    "name": "squarespace"
+  },
+  {
+    "icon": "FaStackExchange",
+    "name": "stack-exchange"
+  },
+  {
+    "icon": "FaStackOverflow",
+    "name": "stack-overflow"
+  },
+  {
+    "icon": "FaStackpath",
+    "name": "stackpath"
+  },
+  {
+    "icon": "FaStaylinked",
+    "name": "staylinked"
+  },
+  {
+    "icon": "FaSteamSquare",
+    "name": "steam-square"
+  },
+  {
+    "icon": "FaSteamSymbol",
+    "name": "steam-symbol"
+  },
+  {
+    "icon": "FaSteam",
+    "name": "steam"
+  },
+  {
+    "icon": "FaStickerMule",
+    "name": "sticker-mule"
+  },
+  {
+    "icon": "FaStrava",
+    "name": "strava"
+  },
+  {
+    "icon": "FaStripeS",
+    "name": "stripe-s"
+  },
+  {
+    "icon": "FaStripe",
+    "name": "stripe"
+  },
+  {
+    "icon": "FaStudiovinari",
+    "name": "studiovinari"
+  },
+  {
+    "icon": "FaStumbleuponCircle",
+    "name": "stumbleupon-circle"
+  },
+  {
+    "icon": "FaStumbleupon",
+    "name": "stumbleupon"
+  },
+  {
+    "icon": "FaSuperpowers",
+    "name": "superpowers"
+  },
+  {
+    "icon": "FaSupple",
+    "name": "supple"
+  },
+  {
+    "icon": "FaSuse",
+    "name": "suse"
+  },
+  {
+    "icon": "FaSwift",
+    "name": "swift"
+  },
+  {
+    "icon": "FaSymfony",
+    "name": "symfony"
+  },
+  {
+    "icon": "FaTeamspeak",
+    "name": "teamspeak"
+  },
+  {
+    "icon": "FaTelegramPlane",
+    "name": "telegram-plane"
+  },
+  {
+    "icon": "FaTelegram",
+    "name": "telegram"
+  },
+  {
+    "icon": "FaTencentWeibo",
+    "name": "tencent-weibo"
+  },
+  {
+    "icon": "FaTheRedYeti",
+    "name": "the-red-yeti"
+  },
+  {
+    "icon": "FaThemeco",
+    "name": "themeco"
+  },
+  {
+    "icon": "FaThemeisle",
+    "name": "themeisle"
+  },
+  {
+    "icon": "FaThinkPeaks",
+    "name": "think-peaks"
+  },
+  {
+    "icon": "FaTiktok",
+    "name": "tiktok"
+  },
+  {
+    "icon": "FaTradeFederation",
+    "name": "trade-federation"
+  },
+  {
+    "icon": "FaTrello",
+    "name": "trello"
+  },
+  {
+    "icon": "FaTripadvisor",
+    "name": "tripadvisor"
+  },
+  {
+    "icon": "FaTumblrSquare",
+    "name": "tumblr-square"
+  },
+  {
+    "icon": "FaTumblr",
+    "name": "tumblr"
+  },
+  {
+    "icon": "FaTwitch",
+    "name": "twitch"
+  },
+  {
+    "icon": "FaTwitterSquare",
+    "name": "twitter-square"
+  },
+  {
+    "icon": "FaTwitter",
+    "name": "twitter"
+  },
+  {
+    "icon": "FaTypo3",
+    "name": "typo3"
+  },
+  {
+    "icon": "FaUber",
+    "name": "uber"
+  },
+  {
+    "icon": "FaUbuntu",
+    "name": "ubuntu"
+  },
+  {
+    "icon": "FaUikit",
+    "name": "uikit"
+  },
+  {
+    "icon": "FaUmbraco",
+    "name": "umbraco"
+  },
+  {
+    "icon": "FaUncharted",
+    "name": "uncharted"
+  },
+  {
+    "icon": "FaUniregistry",
+    "name": "uniregistry"
+  },
+  {
+    "icon": "FaUnity",
+    "name": "unity"
+  },
+  {
+    "icon": "FaUnsplash",
+    "name": "unsplash"
+  },
+  {
+    "icon": "FaUntappd",
+    "name": "untappd"
+  },
+  {
+    "icon": "FaUps",
+    "name": "ups"
+  },
+  {
+    "icon": "FaUsb",
+    "name": "usb"
+  },
+  {
+    "icon": "FaUsps",
+    "name": "usps"
+  },
+  {
+    "icon": "FaUssunnah",
+    "name": "ussunnah"
+  },
+  {
+    "icon": "FaVaadin",
+    "name": "vaadin"
+  },
+  {
+    "icon": "FaViacoin",
+    "name": "viacoin"
+  },
+  {
+    "icon": "FaViadeoSquare",
+    "name": "viadeo-square"
+  },
+  {
+    "icon": "FaViadeo",
+    "name": "viadeo"
+  },
+  {
+    "icon": "FaViber",
+    "name": "viber"
+  },
+  {
+    "icon": "FaVimeoSquare",
+    "name": "vimeo-square"
+  },
+  {
+    "icon": "FaVimeoV",
+    "name": "vimeo-v"
+  },
+  {
+    "icon": "FaVimeo",
+    "name": "vimeo"
+  },
+  {
+    "icon": "FaVine",
+    "name": "vine"
+  },
+  {
+    "icon": "FaVk",
+    "name": "vk"
+  },
+  {
+    "icon": "FaVnv",
+    "name": "vnv"
+  },
+  {
+    "icon": "FaVuejs",
+    "name": "vuejs"
+  },
+  {
+    "icon": "FaWatchmanMonitoring",
+    "name": "watchman-monitoring"
+  },
+  {
+    "icon": "FaWaze",
+    "name": "waze"
+  },
+  {
+    "icon": "FaWeebly",
+    "name": "weebly"
+  },
+  {
+    "icon": "FaWeibo",
+    "name": "weibo"
+  },
+  {
+    "icon": "FaWeixin",
+    "name": "weixin"
+  },
+  {
+    "icon": "FaWhatsappSquare",
+    "name": "whatsapp-square"
+  },
+  {
+    "icon": "FaWhatsapp",
+    "name": "whatsapp"
+  },
+  {
+    "icon": "FaWhmcs",
+    "name": "whmcs"
+  },
+  {
+    "icon": "FaWikipediaW",
+    "name": "wikipedia-w"
+  },
+  {
+    "icon": "FaWindows",
+    "name": "windows"
+  },
+  {
+    "icon": "FaWix",
+    "name": "wix"
+  },
+  {
+    "icon": "FaWizardsOfTheCoast",
+    "name": "wizards-of-the-coast"
+  },
+  {
+    "icon": "FaWodu",
+    "name": "wodu"
+  },
+  {
+    "icon": "FaWolfPackBattalion",
+    "name": "wolf-pack-battalion"
+  },
+  {
+    "icon": "FaWordpressSimple",
+    "name": "wordpress-simple"
+  },
+  {
+    "icon": "FaWordpress",
+    "name": "wordpress"
+  },
+  {
+    "icon": "FaWpbeginner",
+    "name": "wpbeginner"
+  },
+  {
+    "icon": "FaWpexplorer",
+    "name": "wpexplorer"
+  },
+  {
+    "icon": "FaWpforms",
+    "name": "wpforms"
+  },
+  {
+    "icon": "FaWpressr",
+    "name": "wpressr"
+  },
+  {
+    "icon": "FaXbox",
+    "name": "xbox"
+  },
+  {
+    "icon": "FaXingSquare",
+    "name": "xing-square"
+  },
+  {
+    "icon": "FaXing",
+    "name": "xing"
+  },
+  {
+    "icon": "FaYCombinator",
+    "name": "y-combinator"
+  },
+  {
+    "icon": "FaYahoo",
+    "name": "yahoo"
+  },
+  {
+    "icon": "FaYammer",
+    "name": "yammer"
+  },
+  {
+    "icon": "FaYandexInternational",
+    "name": "yandex-international"
+  },
+  {
+    "icon": "FaYandex",
+    "name": "yandex"
+  },
+  {
+    "icon": "FaYarn",
+    "name": "yarn"
+  },
+  {
+    "icon": "FaYelp",
+    "name": "yelp"
+  },
+  {
+    "icon": "FaYoast",
+    "name": "yoast"
+  },
+  {
+    "icon": "FaYoutubeSquare",
+    "name": "youtube-square"
+  },
+  {
+    "icon": "FaYoutube",
+    "name": "youtube"
+  },
+  {
+    "icon": "FaZhihu",
+    "name": "zhihu"
+  },
+  {
+    "icon": "FaAd",
+    "name": "ad"
+  },
+  {
+    "icon": "FaAddressBook",
+    "name": "address-book"
+  },
+  {
+    "icon": "FaAddressCard",
+    "name": "address-card"
+  },
+  {
+    "icon": "FaAdjust",
+    "name": "adjust"
+  },
+  {
+    "icon": "FaAirFreshener",
+    "name": "air-freshener"
+  },
+  {
+    "icon": "FaAlignCenter",
+    "name": "align-center"
+  },
+  {
+    "icon": "FaAlignJustify",
+    "name": "align-justify"
+  },
+  {
+    "icon": "FaAlignLeft",
+    "name": "align-left"
+  },
+  {
+    "icon": "FaAlignRight",
+    "name": "align-right"
+  },
+  {
+    "icon": "FaAllergies",
+    "name": "allergies"
+  },
+  {
+    "icon": "FaAmbulance",
+    "name": "ambulance"
+  },
+  {
+    "icon": "FaAmericanSignLanguageInterpreting",
+    "name": "american-sign-language-interpreting"
+  },
+  {
+    "icon": "FaAnchor",
+    "name": "anchor"
+  },
+  {
+    "icon": "FaAngleDoubleDown",
+    "name": "angle-double-down"
+  },
+  {
+    "icon": "FaAngleDoubleLeft",
+    "name": "angle-double-left"
+  },
+  {
+    "icon": "FaAngleDoubleRight",
+    "name": "angle-double-right"
+  },
+  {
+    "icon": "FaAngleDoubleUp",
+    "name": "angle-double-up"
+  },
+  {
+    "icon": "FaAngleDown",
+    "name": "angle-down"
+  },
+  {
+    "icon": "FaAngleLeft",
+    "name": "angle-left"
+  },
+  {
+    "icon": "FaAngleRight",
+    "name": "angle-right"
+  },
+  {
+    "icon": "FaAngleUp",
+    "name": "angle-up"
+  },
+  {
+    "icon": "FaAngry",
+    "name": "angry"
+  },
+  {
+    "icon": "FaAnkh",
+    "name": "ankh"
+  },
+  {
+    "icon": "FaAppleAlt",
+    "name": "apple-alt"
+  },
+  {
+    "icon": "FaArchive",
+    "name": "archive"
+  },
+  {
+    "icon": "FaArchway",
+    "name": "archway"
+  },
+  {
+    "icon": "FaArrowAltCircleDown",
+    "name": "arrow-alt-circle-down"
+  },
+  {
+    "icon": "FaArrowAltCircleLeft",
+    "name": "arrow-alt-circle-left"
+  },
+  {
+    "icon": "FaArrowAltCircleRight",
+    "name": "arrow-alt-circle-right"
+  },
+  {
+    "icon": "FaArrowAltCircleUp",
+    "name": "arrow-alt-circle-up"
+  },
+  {
+    "icon": "FaArrowCircleDown",
+    "name": "arrow-circle-down"
+  },
+  {
+    "icon": "FaArrowCircleLeft",
+    "name": "arrow-circle-left"
+  },
+  {
+    "icon": "FaArrowCircleRight",
+    "name": "arrow-circle-right"
+  },
+  {
+    "icon": "FaArrowCircleUp",
+    "name": "arrow-circle-up"
+  },
+  {
+    "icon": "FaArrowDown",
+    "name": "arrow-down"
+  },
+  {
+    "icon": "FaArrowLeft",
+    "name": "arrow-left"
+  },
+  {
+    "icon": "FaArrowRight",
+    "name": "arrow-right"
+  },
+  {
+    "icon": "FaArrowUp",
+    "name": "arrow-up"
+  },
+  {
+    "icon": "FaArrowsAltH",
+    "name": "arrows-alt-h"
+  },
+  {
+    "icon": "FaArrowsAltV",
+    "name": "arrows-alt-v"
+  },
+  {
+    "icon": "FaArrowsAlt",
+    "name": "arrows-alt"
+  },
+  {
+    "icon": "FaAssistiveListeningSystems",
+    "name": "assistive-listening-systems"
+  },
+  {
+    "icon": "FaAsterisk",
+    "name": "asterisk"
+  },
+  {
+    "icon": "FaAt",
+    "name": "at"
+  },
+  {
+    "icon": "FaAtlas",
+    "name": "atlas"
+  },
+  {
+    "icon": "FaAtom",
+    "name": "atom"
+  },
+  {
+    "icon": "FaAudioDescription",
+    "name": "audio-description"
+  },
+  {
+    "icon": "FaAward",
+    "name": "award"
+  },
+  {
+    "icon": "FaBabyCarriage",
+    "name": "baby-carriage"
+  },
+  {
+    "icon": "FaBaby",
+    "name": "baby"
+  },
+  {
+    "icon": "FaBackspace",
+    "name": "backspace"
+  },
+  {
+    "icon": "FaBackward",
+    "name": "backward"
+  },
+  {
+    "icon": "FaBacon",
+    "name": "bacon"
+  },
+  {
+    "icon": "FaBacteria",
+    "name": "bacteria"
+  },
+  {
+    "icon": "FaBacterium",
+    "name": "bacterium"
+  },
+  {
+    "icon": "FaBahai",
+    "name": "bahai"
+  },
+  {
+    "icon": "FaBalanceScaleLeft",
+    "name": "balance-scale-left"
+  },
+  {
+    "icon": "FaBalanceScaleRight",
+    "name": "balance-scale-right"
+  },
+  {
+    "icon": "FaBalanceScale",
+    "name": "balance-scale"
+  },
+  {
+    "icon": "FaBan",
+    "name": "ban"
+  },
+  {
+    "icon": "FaBandAid",
+    "name": "band-aid"
+  },
+  {
+    "icon": "FaBarcode",
+    "name": "barcode"
+  },
+  {
+    "icon": "FaBars",
+    "name": "bars"
+  },
+  {
+    "icon": "FaBaseballBall",
+    "name": "baseball-ball"
+  },
+  {
+    "icon": "FaBasketballBall",
+    "name": "basketball-ball"
+  },
+  {
+    "icon": "FaBath",
+    "name": "bath"
+  },
+  {
+    "icon": "FaBatteryEmpty",
+    "name": "battery-empty"
+  },
+  {
+    "icon": "FaBatteryFull",
+    "name": "battery-full"
+  },
+  {
+    "icon": "FaBatteryHalf",
+    "name": "battery-half"
+  },
+  {
+    "icon": "FaBatteryQuarter",
+    "name": "battery-quarter"
+  },
+  {
+    "icon": "FaBatteryThreeQuarters",
+    "name": "battery-three-quarters"
+  },
+  {
+    "icon": "FaBed",
+    "name": "bed"
+  },
+  {
+    "icon": "FaBeer",
+    "name": "beer"
+  },
+  {
+    "icon": "FaBellSlash",
+    "name": "bell-slash"
+  },
+  {
+    "icon": "FaBell",
+    "name": "bell"
+  },
+  {
+    "icon": "FaBezierCurve",
+    "name": "bezier-curve"
+  },
+  {
+    "icon": "FaBible",
+    "name": "bible"
+  },
+  {
+    "icon": "FaBicycle",
+    "name": "bicycle"
+  },
+  {
+    "icon": "FaBiking",
+    "name": "biking"
+  },
+  {
+    "icon": "FaBinoculars",
+    "name": "binoculars"
+  },
+  {
+    "icon": "FaBiohazard",
+    "name": "biohazard"
+  },
+  {
+    "icon": "FaBirthdayCake",
+    "name": "birthday-cake"
+  },
+  {
+    "icon": "FaBlenderPhone",
+    "name": "blender-phone"
+  },
+  {
+    "icon": "FaBlender",
+    "name": "blender"
+  },
+  {
+    "icon": "FaBlind",
+    "name": "blind"
+  },
+  {
+    "icon": "FaBlog",
+    "name": "blog"
+  },
+  {
+    "icon": "FaBold",
+    "name": "bold"
+  },
+  {
+    "icon": "FaBolt",
+    "name": "bolt"
+  },
+  {
+    "icon": "FaBomb",
+    "name": "bomb"
+  },
+  {
+    "icon": "FaBone",
+    "name": "bone"
+  },
+  {
+    "icon": "FaBong",
+    "name": "bong"
+  },
+  {
+    "icon": "FaBookDead",
+    "name": "book-dead"
+  },
+  {
+    "icon": "FaBookMedical",
+    "name": "book-medical"
+  },
+  {
+    "icon": "FaBookOpen",
+    "name": "book-open"
+  },
+  {
+    "icon": "FaBookReader",
+    "name": "book-reader"
+  },
+  {
+    "icon": "FaBook",
+    "name": "book"
+  },
+  {
+    "icon": "FaBookmark",
+    "name": "bookmark"
+  },
+  {
+    "icon": "FaBorderAll",
+    "name": "border-all"
+  },
+  {
+    "icon": "FaBorderNone",
+    "name": "border-none"
+  },
+  {
+    "icon": "FaBorderStyle",
+    "name": "border-style"
+  },
+  {
+    "icon": "FaBowlingBall",
+    "name": "bowling-ball"
+  },
+  {
+    "icon": "FaBoxOpen",
+    "name": "box-open"
+  },
+  {
+    "icon": "FaBoxTissue",
+    "name": "box-tissue"
+  },
+  {
+    "icon": "FaBox",
+    "name": "box"
+  },
+  {
+    "icon": "FaBoxes",
+    "name": "boxes"
+  },
+  {
+    "icon": "FaBraille",
+    "name": "braille"
+  },
+  {
+    "icon": "FaBrain",
+    "name": "brain"
+  },
+  {
+    "icon": "FaBreadSlice",
+    "name": "bread-slice"
+  },
+  {
+    "icon": "FaBriefcaseMedical",
+    "name": "briefcase-medical"
+  },
+  {
+    "icon": "FaBriefcase",
+    "name": "briefcase"
+  },
+  {
+    "icon": "FaBroadcastTower",
+    "name": "broadcast-tower"
+  },
+  {
+    "icon": "FaBroom",
+    "name": "broom"
+  },
+  {
+    "icon": "FaBrush",
+    "name": "brush"
+  },
+  {
+    "icon": "FaBug",
+    "name": "bug"
+  },
+  {
+    "icon": "FaBuilding",
+    "name": "building"
+  },
+  {
+    "icon": "FaBullhorn",
+    "name": "bullhorn"
+  },
+  {
+    "icon": "FaBullseye",
+    "name": "bullseye"
+  },
+  {
+    "icon": "FaBurn",
+    "name": "burn"
+  },
+  {
+    "icon": "FaBusAlt",
+    "name": "bus-alt"
+  },
+  {
+    "icon": "FaBus",
+    "name": "bus"
+  },
+  {
+    "icon": "FaBusinessTime",
+    "name": "business-time"
+  },
+  {
+    "icon": "FaCalculator",
+    "name": "calculator"
+  },
+  {
+    "icon": "FaCalendarAlt",
+    "name": "calendar-alt"
+  },
+  {
+    "icon": "FaCalendarCheck",
+    "name": "calendar-check"
+  },
+  {
+    "icon": "FaCalendarDay",
+    "name": "calendar-day"
+  },
+  {
+    "icon": "FaCalendarMinus",
+    "name": "calendar-minus"
+  },
+  {
+    "icon": "FaCalendarPlus",
+    "name": "calendar-plus"
+  },
+  {
+    "icon": "FaCalendarTimes",
+    "name": "calendar-times"
+  },
+  {
+    "icon": "FaCalendarWeek",
+    "name": "calendar-week"
+  },
+  {
+    "icon": "FaCalendar",
+    "name": "calendar"
+  },
+  {
+    "icon": "FaCameraRetro",
+    "name": "camera-retro"
+  },
+  {
+    "icon": "FaCamera",
+    "name": "camera"
+  },
+  {
+    "icon": "FaCampground",
+    "name": "campground"
+  },
+  {
+    "icon": "FaCandyCane",
+    "name": "candy-cane"
+  },
+  {
+    "icon": "FaCannabis",
+    "name": "cannabis"
+  },
+  {
+    "icon": "FaCapsules",
+    "name": "capsules"
+  },
+  {
+    "icon": "FaCarAlt",
+    "name": "car-alt"
+  },
+  {
+    "icon": "FaCarBattery",
+    "name": "car-battery"
+  },
+  {
+    "icon": "FaCarCrash",
+    "name": "car-crash"
+  },
+  {
+    "icon": "FaCarSide",
+    "name": "car-side"
+  },
+  {
+    "icon": "FaCar",
+    "name": "car"
+  },
+  {
+    "icon": "FaCaravan",
+    "name": "caravan"
+  },
+  {
+    "icon": "FaCaretDown",
+    "name": "caret-down"
+  },
+  {
+    "icon": "FaCaretLeft",
+    "name": "caret-left"
+  },
+  {
+    "icon": "FaCaretRight",
+    "name": "caret-right"
+  },
+  {
+    "icon": "FaCaretSquareDown",
+    "name": "caret-square-down"
+  },
+  {
+    "icon": "FaCaretSquareLeft",
+    "name": "caret-square-left"
+  },
+  {
+    "icon": "FaCaretSquareRight",
+    "name": "caret-square-right"
+  },
+  {
+    "icon": "FaCaretSquareUp",
+    "name": "caret-square-up"
+  },
+  {
+    "icon": "FaCaretUp",
+    "name": "caret-up"
+  },
+  {
+    "icon": "FaCarrot",
+    "name": "carrot"
+  },
+  {
+    "icon": "FaCartArrowDown",
+    "name": "cart-arrow-down"
+  },
+  {
+    "icon": "FaCartPlus",
+    "name": "cart-plus"
+  },
+  {
+    "icon": "FaCashRegister",
+    "name": "cash-register"
+  },
+  {
+    "icon": "FaCat",
+    "name": "cat"
+  },
+  {
+    "icon": "FaCertificate",
+    "name": "certificate"
+  },
+  {
+    "icon": "FaChair",
+    "name": "chair"
+  },
+  {
+    "icon": "FaChalkboardTeacher",
+    "name": "chalkboard-teacher"
+  },
+  {
+    "icon": "FaChalkboard",
+    "name": "chalkboard"
+  },
+  {
+    "icon": "FaChargingStation",
+    "name": "charging-station"
+  },
+  {
+    "icon": "FaChartArea",
+    "name": "chart-area"
+  },
+  {
+    "icon": "FaChartBar",
+    "name": "chart-bar"
+  },
+  {
+    "icon": "FaChartLine",
+    "name": "chart-line"
+  },
+  {
+    "icon": "FaChartPie",
+    "name": "chart-pie"
+  },
+  {
+    "icon": "FaCheckCircle",
+    "name": "check-circle"
+  },
+  {
+    "icon": "FaCheckDouble",
+    "name": "check-double"
+  },
+  {
+    "icon": "FaCheckSquare",
+    "name": "check-square"
+  },
+  {
+    "icon": "FaCheck",
+    "name": "check"
+  },
+  {
+    "icon": "FaCheese",
+    "name": "cheese"
+  },
+  {
+    "icon": "FaChessBishop",
+    "name": "chess-bishop"
+  },
+  {
+    "icon": "FaChessBoard",
+    "name": "chess-board"
+  },
+  {
+    "icon": "FaChessKing",
+    "name": "chess-king"
+  },
+  {
+    "icon": "FaChessKnight",
+    "name": "chess-knight"
+  },
+  {
+    "icon": "FaChessPawn",
+    "name": "chess-pawn"
+  },
+  {
+    "icon": "FaChessQueen",
+    "name": "chess-queen"
+  },
+  {
+    "icon": "FaChessRook",
+    "name": "chess-rook"
+  },
+  {
+    "icon": "FaChess",
+    "name": "chess"
+  },
+  {
+    "icon": "FaChevronCircleDown",
+    "name": "chevron-circle-down"
+  },
+  {
+    "icon": "FaChevronCircleLeft",
+    "name": "chevron-circle-left"
+  },
+  {
+    "icon": "FaChevronCircleRight",
+    "name": "chevron-circle-right"
+  },
+  {
+    "icon": "FaChevronCircleUp",
+    "name": "chevron-circle-up"
+  },
+  {
+    "icon": "FaChevronDown",
+    "name": "chevron-down"
+  },
+  {
+    "icon": "FaChevronLeft",
+    "name": "chevron-left"
+  },
+  {
+    "icon": "FaChevronRight",
+    "name": "chevron-right"
+  },
+  {
+    "icon": "FaChevronUp",
+    "name": "chevron-up"
+  },
+  {
+    "icon": "FaChild",
+    "name": "child"
+  },
+  {
+    "icon": "FaChurch",
+    "name": "church"
+  },
+  {
+    "icon": "FaCircleNotch",
+    "name": "circle-notch"
+  },
+  {
+    "icon": "FaCircle",
+    "name": "circle"
+  },
+  {
+    "icon": "FaCity",
+    "name": "city"
+  },
+  {
+    "icon": "FaClinicMedical",
+    "name": "clinic-medical"
+  },
+  {
+    "icon": "FaClipboardCheck",
+    "name": "clipboard-check"
+  },
+  {
+    "icon": "FaClipboardList",
+    "name": "clipboard-list"
+  },
+  {
+    "icon": "FaClipboard",
+    "name": "clipboard"
+  },
+  {
+    "icon": "FaClock",
+    "name": "clock"
+  },
+  {
+    "icon": "FaClone",
+    "name": "clone"
+  },
+  {
+    "icon": "FaClosedCaptioning",
+    "name": "closed-captioning"
+  },
+  {
+    "icon": "FaCloudDownloadAlt",
+    "name": "cloud-download-alt"
+  },
+  {
+    "icon": "FaCloudMeatball",
+    "name": "cloud-meatball"
+  },
+  {
+    "icon": "FaCloudMoonRain",
+    "name": "cloud-moon-rain"
+  },
+  {
+    "icon": "FaCloudMoon",
+    "name": "cloud-moon"
+  },
+  {
+    "icon": "FaCloudRain",
+    "name": "cloud-rain"
+  },
+  {
+    "icon": "FaCloudShowersHeavy",
+    "name": "cloud-showers-heavy"
+  },
+  {
+    "icon": "FaCloudSunRain",
+    "name": "cloud-sun-rain"
+  },
+  {
+    "icon": "FaCloudSun",
+    "name": "cloud-sun"
+  },
+  {
+    "icon": "FaCloudUploadAlt",
+    "name": "cloud-upload-alt"
+  },
+  {
+    "icon": "FaCloud",
+    "name": "cloud"
+  },
+  {
+    "icon": "FaCocktail",
+    "name": "cocktail"
+  },
+  {
+    "icon": "FaCodeBranch",
+    "name": "code-branch"
+  },
+  {
+    "icon": "FaCode",
+    "name": "code"
+  },
+  {
+    "icon": "FaCoffee",
+    "name": "coffee"
+  },
+  {
+    "icon": "FaCog",
+    "name": "cog"
+  },
+  {
+    "icon": "FaCogs",
+    "name": "cogs"
+  },
+  {
+    "icon": "FaCoins",
+    "name": "coins"
+  },
+  {
+    "icon": "FaColumns",
+    "name": "columns"
+  },
+  {
+    "icon": "FaCommentAlt",
+    "name": "comment-alt"
+  },
+  {
+    "icon": "FaCommentDollar",
+    "name": "comment-dollar"
+  },
+  {
+    "icon": "FaCommentDots",
+    "name": "comment-dots"
+  },
+  {
+    "icon": "FaCommentMedical",
+    "name": "comment-medical"
+  },
+  {
+    "icon": "FaCommentSlash",
+    "name": "comment-slash"
+  },
+  {
+    "icon": "FaComment",
+    "name": "comment"
+  },
+  {
+    "icon": "FaCommentsDollar",
+    "name": "comments-dollar"
+  },
+  {
+    "icon": "FaComments",
+    "name": "comments"
+  },
+  {
+    "icon": "FaCompactDisc",
+    "name": "compact-disc"
+  },
+  {
+    "icon": "FaCompass",
+    "name": "compass"
+  },
+  {
+    "icon": "FaCompressAlt",
+    "name": "compress-alt"
+  },
+  {
+    "icon": "FaCompressArrowsAlt",
+    "name": "compress-arrows-alt"
+  },
+  {
+    "icon": "FaCompress",
+    "name": "compress"
+  },
+  {
+    "icon": "FaConciergeBell",
+    "name": "concierge-bell"
+  },
+  {
+    "icon": "FaCookieBite",
+    "name": "cookie-bite"
+  },
+  {
+    "icon": "FaCookie",
+    "name": "cookie"
+  },
+  {
+    "icon": "FaCopy",
+    "name": "copy"
+  },
+  {
+    "icon": "FaCopyright",
+    "name": "copyright"
+  },
+  {
+    "icon": "FaCouch",
+    "name": "couch"
+  },
+  {
+    "icon": "FaCreditCard",
+    "name": "credit-card"
+  },
+  {
+    "icon": "FaCropAlt",
+    "name": "crop-alt"
+  },
+  {
+    "icon": "FaCrop",
+    "name": "crop"
+  },
+  {
+    "icon": "FaCross",
+    "name": "cross"
+  },
+  {
+    "icon": "FaCrosshairs",
+    "name": "crosshairs"
+  },
+  {
+    "icon": "FaCrow",
+    "name": "crow"
+  },
+  {
+    "icon": "FaCrown",
+    "name": "crown"
+  },
+  {
+    "icon": "FaCrutch",
+    "name": "crutch"
+  },
+  {
+    "icon": "FaCube",
+    "name": "cube"
+  },
+  {
+    "icon": "FaCubes",
+    "name": "cubes"
+  },
+  {
+    "icon": "FaCut",
+    "name": "cut"
+  },
+  {
+    "icon": "FaDatabase",
+    "name": "database"
+  },
+  {
+    "icon": "FaDeaf",
+    "name": "deaf"
+  },
+  {
+    "icon": "FaDemocrat",
+    "name": "democrat"
+  },
+  {
+    "icon": "FaDesktop",
+    "name": "desktop"
+  },
+  {
+    "icon": "FaDharmachakra",
+    "name": "dharmachakra"
+  },
+  {
+    "icon": "FaDiagnoses",
+    "name": "diagnoses"
+  },
+  {
+    "icon": "FaDiceD20",
+    "name": "dice-d20"
+  },
+  {
+    "icon": "FaDiceD6",
+    "name": "dice-d6"
+  },
+  {
+    "icon": "FaDiceFive",
+    "name": "dice-five"
+  },
+  {
+    "icon": "FaDiceFour",
+    "name": "dice-four"
+  },
+  {
+    "icon": "FaDiceOne",
+    "name": "dice-one"
+  },
+  {
+    "icon": "FaDiceSix",
+    "name": "dice-six"
+  },
+  {
+    "icon": "FaDiceThree",
+    "name": "dice-three"
+  },
+  {
+    "icon": "FaDiceTwo",
+    "name": "dice-two"
+  },
+  {
+    "icon": "FaDice",
+    "name": "dice"
+  },
+  {
+    "icon": "FaDigitalTachograph",
+    "name": "digital-tachograph"
+  },
+  {
+    "icon": "FaDirections",
+    "name": "directions"
+  },
+  {
+    "icon": "FaDisease",
+    "name": "disease"
+  },
+  {
+    "icon": "FaDivide",
+    "name": "divide"
+  },
+  {
+    "icon": "FaDizzy",
+    "name": "dizzy"
+  },
+  {
+    "icon": "FaDna",
+    "name": "dna"
+  },
+  {
+    "icon": "FaDog",
+    "name": "dog"
+  },
+  {
+    "icon": "FaDollarSign",
+    "name": "dollar-sign"
+  },
+  {
+    "icon": "FaDollyFlatbed",
+    "name": "dolly-flatbed"
+  },
+  {
+    "icon": "FaDolly",
+    "name": "dolly"
+  },
+  {
+    "icon": "FaDonate",
+    "name": "donate"
+  },
+  {
+    "icon": "FaDoorClosed",
+    "name": "door-closed"
+  },
+  {
+    "icon": "FaDoorOpen",
+    "name": "door-open"
+  },
+  {
+    "icon": "FaDotCircle",
+    "name": "dot-circle"
+  },
+  {
+    "icon": "FaDove",
+    "name": "dove"
+  },
+  {
+    "icon": "FaDownload",
+    "name": "download"
+  },
+  {
+    "icon": "FaDraftingCompass",
+    "name": "drafting-compass"
+  },
+  {
+    "icon": "FaDragon",
+    "name": "dragon"
+  },
+  {
+    "icon": "FaDrawPolygon",
+    "name": "draw-polygon"
+  },
+  {
+    "icon": "FaDrumSteelpan",
+    "name": "drum-steelpan"
+  },
+  {
+    "icon": "FaDrum",
+    "name": "drum"
+  },
+  {
+    "icon": "FaDrumstickBite",
+    "name": "drumstick-bite"
+  },
+  {
+    "icon": "FaDumbbell",
+    "name": "dumbbell"
+  },
+  {
+    "icon": "FaDumpsterFire",
+    "name": "dumpster-fire"
+  },
+  {
+    "icon": "FaDumpster",
+    "name": "dumpster"
+  },
+  {
+    "icon": "FaDungeon",
+    "name": "dungeon"
+  },
+  {
+    "icon": "FaEdit",
+    "name": "edit"
+  },
+  {
+    "icon": "FaEgg",
+    "name": "egg"
+  },
+  {
+    "icon": "FaEject",
+    "name": "eject"
+  },
+  {
+    "icon": "FaEllipsisH",
+    "name": "ellipsis-h"
+  },
+  {
+    "icon": "FaEllipsisV",
+    "name": "ellipsis-v"
+  },
+  {
+    "icon": "FaEnvelopeOpenText",
+    "name": "envelope-open-text"
+  },
+  {
+    "icon": "FaEnvelopeOpen",
+    "name": "envelope-open"
+  },
+  {
+    "icon": "FaEnvelopeSquare",
+    "name": "envelope-square"
+  },
+  {
+    "icon": "FaEnvelope",
+    "name": "envelope"
+  },
+  {
+    "icon": "FaEquals",
+    "name": "equals"
+  },
+  {
+    "icon": "FaEraser",
+    "name": "eraser"
+  },
+  {
+    "icon": "FaEthernet",
+    "name": "ethernet"
+  },
+  {
+    "icon": "FaEuroSign",
+    "name": "euro-sign"
+  },
+  {
+    "icon": "FaExchangeAlt",
+    "name": "exchange-alt"
+  },
+  {
+    "icon": "FaExclamationCircle",
+    "name": "exclamation-circle"
+  },
+  {
+    "icon": "FaExclamationTriangle",
+    "name": "exclamation-triangle"
+  },
+  {
+    "icon": "FaExclamation",
+    "name": "exclamation"
+  },
+  {
+    "icon": "FaExpandAlt",
+    "name": "expand-alt"
+  },
+  {
+    "icon": "FaExpandArrowsAlt",
+    "name": "expand-arrows-alt"
+  },
+  {
+    "icon": "FaExpand",
+    "name": "expand"
+  },
+  {
+    "icon": "FaExternalLinkAlt",
+    "name": "external-link-alt"
+  },
+  {
+    "icon": "FaExternalLinkSquareAlt",
+    "name": "external-link-square-alt"
+  },
+  {
+    "icon": "FaEyeDropper",
+    "name": "eye-dropper"
+  },
+  {
+    "icon": "FaEyeSlash",
+    "name": "eye-slash"
+  },
+  {
+    "icon": "FaEye",
+    "name": "eye"
+  },
+  {
+    "icon": "FaFan",
+    "name": "fan"
+  },
+  {
+    "icon": "FaFastBackward",
+    "name": "fast-backward"
+  },
+  {
+    "icon": "FaFastForward",
+    "name": "fast-forward"
+  },
+  {
+    "icon": "FaFaucet",
+    "name": "faucet"
+  },
+  {
+    "icon": "FaFax",
+    "name": "fax"
+  },
+  {
+    "icon": "FaFeatherAlt",
+    "name": "feather-alt"
+  },
+  {
+    "icon": "FaFeather",
+    "name": "feather"
+  },
+  {
+    "icon": "FaFemale",
+    "name": "female"
+  },
+  {
+    "icon": "FaFighterJet",
+    "name": "fighter-jet"
+  },
+  {
+    "icon": "FaFileAlt",
+    "name": "file-alt"
+  },
+  {
+    "icon": "FaFileArchive",
+    "name": "file-archive"
+  },
+  {
+    "icon": "FaFileAudio",
+    "name": "file-audio"
+  },
+  {
+    "icon": "FaFileCode",
+    "name": "file-code"
+  },
+  {
+    "icon": "FaFileContract",
+    "name": "file-contract"
+  },
+  {
+    "icon": "FaFileCsv",
+    "name": "file-csv"
+  },
+  {
+    "icon": "FaFileDownload",
+    "name": "file-download"
+  },
+  {
+    "icon": "FaFileExcel",
+    "name": "file-excel"
+  },
+  {
+    "icon": "FaFileExport",
+    "name": "file-export"
+  },
+  {
+    "icon": "FaFileImage",
+    "name": "file-image"
+  },
+  {
+    "icon": "FaFileImport",
+    "name": "file-import"
+  },
+  {
+    "icon": "FaFileInvoiceDollar",
+    "name": "file-invoice-dollar"
+  },
+  {
+    "icon": "FaFileInvoice",
+    "name": "file-invoice"
+  },
+  {
+    "icon": "FaFileMedicalAlt",
+    "name": "file-medical-alt"
+  },
+  {
+    "icon": "FaFileMedical",
+    "name": "file-medical"
+  },
+  {
+    "icon": "FaFilePdf",
+    "name": "file-pdf"
+  },
+  {
+    "icon": "FaFilePowerpoint",
+    "name": "file-powerpoint"
+  },
+  {
+    "icon": "FaFilePrescription",
+    "name": "file-prescription"
+  },
+  {
+    "icon": "FaFileSignature",
+    "name": "file-signature"
+  },
+  {
+    "icon": "FaFileUpload",
+    "name": "file-upload"
+  },
+  {
+    "icon": "FaFileVideo",
+    "name": "file-video"
+  },
+  {
+    "icon": "FaFileWord",
+    "name": "file-word"
+  },
+  {
+    "icon": "FaFile",
+    "name": "file"
+  },
+  {
+    "icon": "FaFillDrip",
+    "name": "fill-drip"
+  },
+  {
+    "icon": "FaFill",
+    "name": "fill"
+  },
+  {
+    "icon": "FaFilm",
+    "name": "film"
+  },
+  {
+    "icon": "FaFilter",
+    "name": "filter"
+  },
+  {
+    "icon": "FaFingerprint",
+    "name": "fingerprint"
+  },
+  {
+    "icon": "FaFireAlt",
+    "name": "fire-alt"
+  },
+  {
+    "icon": "FaFireExtinguisher",
+    "name": "fire-extinguisher"
+  },
+  {
+    "icon": "FaFire",
+    "name": "fire"
+  },
+  {
+    "icon": "FaFirstAid",
+    "name": "first-aid"
+  },
+  {
+    "icon": "FaFish",
+    "name": "fish"
+  },
+  {
+    "icon": "FaFistRaised",
+    "name": "fist-raised"
+  },
+  {
+    "icon": "FaFlagCheckered",
+    "name": "flag-checkered"
+  },
+  {
+    "icon": "FaFlagUsa",
+    "name": "flag-usa"
+  },
+  {
+    "icon": "FaFlag",
+    "name": "flag"
+  },
+  {
+    "icon": "FaFlask",
+    "name": "flask"
+  },
+  {
+    "icon": "FaFlushed",
+    "name": "flushed"
+  },
+  {
+    "icon": "FaFolderMinus",
+    "name": "folder-minus"
+  },
+  {
+    "icon": "FaFolderOpen",
+    "name": "folder-open"
+  },
+  {
+    "icon": "FaFolderPlus",
+    "name": "folder-plus"
+  },
+  {
+    "icon": "FaFolder",
+    "name": "folder"
+  },
+  {
+    "icon": "FaFont",
+    "name": "font"
+  },
+  {
+    "icon": "FaFootballBall",
+    "name": "football-ball"
+  },
+  {
+    "icon": "FaForward",
+    "name": "forward"
+  },
+  {
+    "icon": "FaFrog",
+    "name": "frog"
+  },
+  {
+    "icon": "FaFrownOpen",
+    "name": "frown-open"
+  },
+  {
+    "icon": "FaFrown",
+    "name": "frown"
+  },
+  {
+    "icon": "FaFunnelDollar",
+    "name": "funnel-dollar"
+  },
+  {
+    "icon": "FaFutbol",
+    "name": "futbol"
+  },
+  {
+    "icon": "FaGamepad",
+    "name": "gamepad"
+  },
+  {
+    "icon": "FaGasPump",
+    "name": "gas-pump"
+  },
+  {
+    "icon": "FaGavel",
+    "name": "gavel"
+  },
+  {
+    "icon": "FaGem",
+    "name": "gem"
+  },
+  {
+    "icon": "FaGenderless",
+    "name": "genderless"
+  },
+  {
+    "icon": "FaGhost",
+    "name": "ghost"
+  },
+  {
+    "icon": "FaGift",
+    "name": "gift"
+  },
+  {
+    "icon": "FaGifts",
+    "name": "gifts"
+  },
+  {
+    "icon": "FaGlassCheers",
+    "name": "glass-cheers"
+  },
+  {
+    "icon": "FaGlassMartiniAlt",
+    "name": "glass-martini-alt"
+  },
+  {
+    "icon": "FaGlassMartini",
+    "name": "glass-martini"
+  },
+  {
+    "icon": "FaGlassWhiskey",
+    "name": "glass-whiskey"
+  },
+  {
+    "icon": "FaGlasses",
+    "name": "glasses"
+  },
+  {
+    "icon": "FaGlobeAfrica",
+    "name": "globe-africa"
+  },
+  {
+    "icon": "FaGlobeAmericas",
+    "name": "globe-americas"
+  },
+  {
+    "icon": "FaGlobeAsia",
+    "name": "globe-asia"
+  },
+  {
+    "icon": "FaGlobeEurope",
+    "name": "globe-europe"
+  },
+  {
+    "icon": "FaGlobe",
+    "name": "globe"
+  },
+  {
+    "icon": "FaGolfBall",
+    "name": "golf-ball"
+  },
+  {
+    "icon": "FaGopuram",
+    "name": "gopuram"
+  },
+  {
+    "icon": "FaGraduationCap",
+    "name": "graduation-cap"
+  },
+  {
+    "icon": "FaGreaterThanEqual",
+    "name": "greater-than-equal"
+  },
+  {
+    "icon": "FaGreaterThan",
+    "name": "greater-than"
+  },
+  {
+    "icon": "FaGrimace",
+    "name": "grimace"
+  },
+  {
+    "icon": "FaGrinAlt",
+    "name": "grin-alt"
+  },
+  {
+    "icon": "FaGrinBeamSweat",
+    "name": "grin-beam-sweat"
+  },
+  {
+    "icon": "FaGrinBeam",
+    "name": "grin-beam"
+  },
+  {
+    "icon": "FaGrinHearts",
+    "name": "grin-hearts"
+  },
+  {
+    "icon": "FaGrinSquintTears",
+    "name": "grin-squint-tears"
+  },
+  {
+    "icon": "FaGrinSquint",
+    "name": "grin-squint"
+  },
+  {
+    "icon": "FaGrinStars",
+    "name": "grin-stars"
+  },
+  {
+    "icon": "FaGrinTears",
+    "name": "grin-tears"
+  },
+  {
+    "icon": "FaGrinTongueSquint",
+    "name": "grin-tongue-squint"
+  },
+  {
+    "icon": "FaGrinTongueWink",
+    "name": "grin-tongue-wink"
+  },
+  {
+    "icon": "FaGrinTongue",
+    "name": "grin-tongue"
+  },
+  {
+    "icon": "FaGrinWink",
+    "name": "grin-wink"
+  },
+  {
+    "icon": "FaGrin",
+    "name": "grin"
+  },
+  {
+    "icon": "FaGripHorizontal",
+    "name": "grip-horizontal"
+  },
+  {
+    "icon": "FaGripLinesVertical",
+    "name": "grip-lines-vertical"
+  },
+  {
+    "icon": "FaGripLines",
+    "name": "grip-lines"
+  },
+  {
+    "icon": "FaGripVertical",
+    "name": "grip-vertical"
+  },
+  {
+    "icon": "FaGuitar",
+    "name": "guitar"
+  },
+  {
+    "icon": "FaHSquare",
+    "name": "h-square"
+  },
+  {
+    "icon": "FaHamburger",
+    "name": "hamburger"
+  },
+  {
+    "icon": "FaHammer",
+    "name": "hammer"
+  },
+  {
+    "icon": "FaHamsa",
+    "name": "hamsa"
+  },
+  {
+    "icon": "FaHandHoldingHeart",
+    "name": "hand-holding-heart"
+  },
+  {
+    "icon": "FaHandHoldingMedical",
+    "name": "hand-holding-medical"
+  },
+  {
+    "icon": "FaHandHoldingUsd",
+    "name": "hand-holding-usd"
+  },
+  {
+    "icon": "FaHandHoldingWater",
+    "name": "hand-holding-water"
+  },
+  {
+    "icon": "FaHandHolding",
+    "name": "hand-holding"
+  },
+  {
+    "icon": "FaHandLizard",
+    "name": "hand-lizard"
+  },
+  {
+    "icon": "FaHandMiddleFinger",
+    "name": "hand-middle-finger"
+  },
+  {
+    "icon": "FaHandPaper",
+    "name": "hand-paper"
+  },
+  {
+    "icon": "FaHandPeace",
+    "name": "hand-peace"
+  },
+  {
+    "icon": "FaHandPointDown",
+    "name": "hand-point-down"
+  },
+  {
+    "icon": "FaHandPointLeft",
+    "name": "hand-point-left"
+  },
+  {
+    "icon": "FaHandPointRight",
+    "name": "hand-point-right"
+  },
+  {
+    "icon": "FaHandPointUp",
+    "name": "hand-point-up"
+  },
+  {
+    "icon": "FaHandPointer",
+    "name": "hand-pointer"
+  },
+  {
+    "icon": "FaHandRock",
+    "name": "hand-rock"
+  },
+  {
+    "icon": "FaHandScissors",
+    "name": "hand-scissors"
+  },
+  {
+    "icon": "FaHandSparkles",
+    "name": "hand-sparkles"
+  },
+  {
+    "icon": "FaHandSpock",
+    "name": "hand-spock"
+  },
+  {
+    "icon": "FaHandsHelping",
+    "name": "hands-helping"
+  },
+  {
+    "icon": "FaHandsWash",
+    "name": "hands-wash"
+  },
+  {
+    "icon": "FaHands",
+    "name": "hands"
+  },
+  {
+    "icon": "FaHandshakeAltSlash",
+    "name": "handshake-alt-slash"
+  },
+  {
+    "icon": "FaHandshakeSlash",
+    "name": "handshake-slash"
+  },
+  {
+    "icon": "FaHandshake",
+    "name": "handshake"
+  },
+  {
+    "icon": "FaHanukiah",
+    "name": "hanukiah"
+  },
+  {
+    "icon": "FaHardHat",
+    "name": "hard-hat"
+  },
+  {
+    "icon": "FaHashtag",
+    "name": "hashtag"
+  },
+  {
+    "icon": "FaHatCowboySide",
+    "name": "hat-cowboy-side"
+  },
+  {
+    "icon": "FaHatCowboy",
+    "name": "hat-cowboy"
+  },
+  {
+    "icon": "FaHatWizard",
+    "name": "hat-wizard"
+  },
+  {
+    "icon": "FaHdd",
+    "name": "hdd"
+  },
+  {
+    "icon": "FaHeadSideCoughSlash",
+    "name": "head-side-cough-slash"
+  },
+  {
+    "icon": "FaHeadSideCough",
+    "name": "head-side-cough"
+  },
+  {
+    "icon": "FaHeadSideMask",
+    "name": "head-side-mask"
+  },
+  {
+    "icon": "FaHeadSideVirus",
+    "name": "head-side-virus"
+  },
+  {
+    "icon": "FaHeading",
+    "name": "heading"
+  },
+  {
+    "icon": "FaHeadphonesAlt",
+    "name": "headphones-alt"
+  },
+  {
+    "icon": "FaHeadphones",
+    "name": "headphones"
+  },
+  {
+    "icon": "FaHeadset",
+    "name": "headset"
+  },
+  {
+    "icon": "FaHeartBroken",
+    "name": "heart-broken"
+  },
+  {
+    "icon": "FaHeart",
+    "name": "heart"
+  },
+  {
+    "icon": "FaHeartbeat",
+    "name": "heartbeat"
+  },
+  {
+    "icon": "FaHelicopter",
+    "name": "helicopter"
+  },
+  {
+    "icon": "FaHighlighter",
+    "name": "highlighter"
+  },
+  {
+    "icon": "FaHiking",
+    "name": "hiking"
+  },
+  {
+    "icon": "FaHippo",
+    "name": "hippo"
+  },
+  {
+    "icon": "FaHistory",
+    "name": "history"
+  },
+  {
+    "icon": "FaHockeyPuck",
+    "name": "hockey-puck"
+  },
+  {
+    "icon": "FaHollyBerry",
+    "name": "holly-berry"
+  },
+  {
+    "icon": "FaHome",
+    "name": "home"
+  },
+  {
+    "icon": "FaHorseHead",
+    "name": "horse-head"
+  },
+  {
+    "icon": "FaHorse",
+    "name": "horse"
+  },
+  {
+    "icon": "FaHospitalAlt",
+    "name": "hospital-alt"
+  },
+  {
+    "icon": "FaHospitalSymbol",
+    "name": "hospital-symbol"
+  },
+  {
+    "icon": "FaHospitalUser",
+    "name": "hospital-user"
+  },
+  {
+    "icon": "FaHospital",
+    "name": "hospital"
+  },
+  {
+    "icon": "FaHotTub",
+    "name": "hot-tub"
+  },
+  {
+    "icon": "FaHotdog",
+    "name": "hotdog"
+  },
+  {
+    "icon": "FaHotel",
+    "name": "hotel"
+  },
+  {
+    "icon": "FaHourglassEnd",
+    "name": "hourglass-end"
+  },
+  {
+    "icon": "FaHourglassHalf",
+    "name": "hourglass-half"
+  },
+  {
+    "icon": "FaHourglassStart",
+    "name": "hourglass-start"
+  },
+  {
+    "icon": "FaHourglass",
+    "name": "hourglass"
+  },
+  {
+    "icon": "FaHouseDamage",
+    "name": "house-damage"
+  },
+  {
+    "icon": "FaHouseUser",
+    "name": "house-user"
+  },
+  {
+    "icon": "FaHryvnia",
+    "name": "hryvnia"
+  },
+  {
+    "icon": "FaICursor",
+    "name": "i-cursor"
+  },
+  {
+    "icon": "FaIceCream",
+    "name": "ice-cream"
+  },
+  {
+    "icon": "FaIcicles",
+    "name": "icicles"
+  },
+  {
+    "icon": "FaIcons",
+    "name": "icons"
+  },
+  {
+    "icon": "FaIdBadge",
+    "name": "id-badge"
+  },
+  {
+    "icon": "FaIdCardAlt",
+    "name": "id-card-alt"
+  },
+  {
+    "icon": "FaIdCard",
+    "name": "id-card"
+  },
+  {
+    "icon": "FaIgloo",
+    "name": "igloo"
+  },
+  {
+    "icon": "FaImage",
+    "name": "image"
+  },
+  {
+    "icon": "FaImages",
+    "name": "images"
+  },
+  {
+    "icon": "FaInbox",
+    "name": "inbox"
+  },
+  {
+    "icon": "FaIndent",
+    "name": "indent"
+  },
+  {
+    "icon": "FaIndustry",
+    "name": "industry"
+  },
+  {
+    "icon": "FaInfinity",
+    "name": "infinity"
+  },
+  {
+    "icon": "FaInfoCircle",
+    "name": "info-circle"
+  },
+  {
+    "icon": "FaInfo",
+    "name": "info"
+  },
+  {
+    "icon": "FaItalic",
+    "name": "italic"
+  },
+  {
+    "icon": "FaJedi",
+    "name": "jedi"
+  },
+  {
+    "icon": "FaJoint",
+    "name": "joint"
+  },
+  {
+    "icon": "FaJournalWhills",
+    "name": "journal-whills"
+  },
+  {
+    "icon": "FaKaaba",
+    "name": "kaaba"
+  },
+  {
+    "icon": "FaKey",
+    "name": "key"
+  },
+  {
+    "icon": "FaKeyboard",
+    "name": "keyboard"
+  },
+  {
+    "icon": "FaKhanda",
+    "name": "khanda"
+  },
+  {
+    "icon": "FaKissBeam",
+    "name": "kiss-beam"
+  },
+  {
+    "icon": "FaKissWinkHeart",
+    "name": "kiss-wink-heart"
+  },
+  {
+    "icon": "FaKiss",
+    "name": "kiss"
+  },
+  {
+    "icon": "FaKiwiBird",
+    "name": "kiwi-bird"
+  },
+  {
+    "icon": "FaLandmark",
+    "name": "landmark"
+  },
+  {
+    "icon": "FaLanguage",
+    "name": "language"
+  },
+  {
+    "icon": "FaLaptopCode",
+    "name": "laptop-code"
+  },
+  {
+    "icon": "FaLaptopHouse",
+    "name": "laptop-house"
+  },
+  {
+    "icon": "FaLaptopMedical",
+    "name": "laptop-medical"
+  },
+  {
+    "icon": "FaLaptop",
+    "name": "laptop"
+  },
+  {
+    "icon": "FaLaughBeam",
+    "name": "laugh-beam"
+  },
+  {
+    "icon": "FaLaughSquint",
+    "name": "laugh-squint"
+  },
+  {
+    "icon": "FaLaughWink",
+    "name": "laugh-wink"
+  },
+  {
+    "icon": "FaLaugh",
+    "name": "laugh"
+  },
+  {
+    "icon": "FaLayerGroup",
+    "name": "layer-group"
+  },
+  {
+    "icon": "FaLeaf",
+    "name": "leaf"
+  },
+  {
+    "icon": "FaLemon",
+    "name": "lemon"
+  },
+  {
+    "icon": "FaLessThanEqual",
+    "name": "less-than-equal"
+  },
+  {
+    "icon": "FaLessThan",
+    "name": "less-than"
+  },
+  {
+    "icon": "FaLevelDownAlt",
+    "name": "level-down-alt"
+  },
+  {
+    "icon": "FaLevelUpAlt",
+    "name": "level-up-alt"
+  },
+  {
+    "icon": "FaLifeRing",
+    "name": "life-ring"
+  },
+  {
+    "icon": "FaLightbulb",
+    "name": "lightbulb"
+  },
+  {
+    "icon": "FaLink",
+    "name": "link"
+  },
+  {
+    "icon": "FaLiraSign",
+    "name": "lira-sign"
+  },
+  {
+    "icon": "FaListAlt",
+    "name": "list-alt"
+  },
+  {
+    "icon": "FaListOl",
+    "name": "list-ol"
+  },
+  {
+    "icon": "FaListUl",
+    "name": "list-ul"
+  },
+  {
+    "icon": "FaList",
+    "name": "list"
+  },
+  {
+    "icon": "FaLocationArrow",
+    "name": "location-arrow"
+  },
+  {
+    "icon": "FaLockOpen",
+    "name": "lock-open"
+  },
+  {
+    "icon": "FaLock",
+    "name": "lock"
+  },
+  {
+    "icon": "FaLongArrowAltDown",
+    "name": "long-arrow-alt-down"
+  },
+  {
+    "icon": "FaLongArrowAltLeft",
+    "name": "long-arrow-alt-left"
+  },
+  {
+    "icon": "FaLongArrowAltRight",
+    "name": "long-arrow-alt-right"
+  },
+  {
+    "icon": "FaLongArrowAltUp",
+    "name": "long-arrow-alt-up"
+  },
+  {
+    "icon": "FaLowVision",
+    "name": "low-vision"
+  },
+  {
+    "icon": "FaLuggageCart",
+    "name": "luggage-cart"
+  },
+  {
+    "icon": "FaLungsVirus",
+    "name": "lungs-virus"
+  },
+  {
+    "icon": "FaLungs",
+    "name": "lungs"
+  },
+  {
+    "icon": "FaMagic",
+    "name": "magic"
+  },
+  {
+    "icon": "FaMagnet",
+    "name": "magnet"
+  },
+  {
+    "icon": "FaMailBulk",
+    "name": "mail-bulk"
+  },
+  {
+    "icon": "FaMale",
+    "name": "male"
+  },
+  {
+    "icon": "FaMapMarkedAlt",
+    "name": "map-marked-alt"
+  },
+  {
+    "icon": "FaMapMarked",
+    "name": "map-marked"
+  },
+  {
+    "icon": "FaMapMarkerAlt",
+    "name": "map-marker-alt"
+  },
+  {
+    "icon": "FaMapMarker",
+    "name": "map-marker"
+  },
+  {
+    "icon": "FaMapPin",
+    "name": "map-pin"
+  },
+  {
+    "icon": "FaMapSigns",
+    "name": "map-signs"
+  },
+  {
+    "icon": "FaMap",
+    "name": "map"
+  },
+  {
+    "icon": "FaMarker",
+    "name": "marker"
+  },
+  {
+    "icon": "FaMarsDouble",
+    "name": "mars-double"
+  },
+  {
+    "icon": "FaMarsStrokeH",
+    "name": "mars-stroke-h"
+  },
+  {
+    "icon": "FaMarsStrokeV",
+    "name": "mars-stroke-v"
+  },
+  {
+    "icon": "FaMarsStroke",
+    "name": "mars-stroke"
+  },
+  {
+    "icon": "FaMars",
+    "name": "mars"
+  },
+  {
+    "icon": "FaMask",
+    "name": "mask"
+  },
+  {
+    "icon": "FaMedal",
+    "name": "medal"
+  },
+  {
+    "icon": "FaMedkit",
+    "name": "medkit"
+  },
+  {
+    "icon": "FaMehBlank",
+    "name": "meh-blank"
+  },
+  {
+    "icon": "FaMehRollingEyes",
+    "name": "meh-rolling-eyes"
+  },
+  {
+    "icon": "FaMeh",
+    "name": "meh"
+  },
+  {
+    "icon": "FaMemory",
+    "name": "memory"
+  },
+  {
+    "icon": "FaMenorah",
+    "name": "menorah"
+  },
+  {
+    "icon": "FaMercury",
+    "name": "mercury"
+  },
+  {
+    "icon": "FaMeteor",
+    "name": "meteor"
+  },
+  {
+    "icon": "FaMicrochip",
+    "name": "microchip"
+  },
+  {
+    "icon": "FaMicrophoneAltSlash",
+    "name": "microphone-alt-slash"
+  },
+  {
+    "icon": "FaMicrophoneAlt",
+    "name": "microphone-alt"
+  },
+  {
+    "icon": "FaMicrophoneSlash",
+    "name": "microphone-slash"
+  },
+  {
+    "icon": "FaMicrophone",
+    "name": "microphone"
+  },
+  {
+    "icon": "FaMicroscope",
+    "name": "microscope"
+  },
+  {
+    "icon": "FaMinusCircle",
+    "name": "minus-circle"
+  },
+  {
+    "icon": "FaMinusSquare",
+    "name": "minus-square"
+  },
+  {
+    "icon": "FaMinus",
+    "name": "minus"
+  },
+  {
+    "icon": "FaMitten",
+    "name": "mitten"
+  },
+  {
+    "icon": "FaMobileAlt",
+    "name": "mobile-alt"
+  },
+  {
+    "icon": "FaMobile",
+    "name": "mobile"
+  },
+  {
+    "icon": "FaMoneyBillAlt",
+    "name": "money-bill-alt"
+  },
+  {
+    "icon": "FaMoneyBillWaveAlt",
+    "name": "money-bill-wave-alt"
+  },
+  {
+    "icon": "FaMoneyBillWave",
+    "name": "money-bill-wave"
+  },
+  {
+    "icon": "FaMoneyBill",
+    "name": "money-bill"
+  },
+  {
+    "icon": "FaMoneyCheckAlt",
+    "name": "money-check-alt"
+  },
+  {
+    "icon": "FaMoneyCheck",
+    "name": "money-check"
+  },
+  {
+    "icon": "FaMonument",
+    "name": "monument"
+  },
+  {
+    "icon": "FaMoon",
+    "name": "moon"
+  },
+  {
+    "icon": "FaMortarPestle",
+    "name": "mortar-pestle"
+  },
+  {
+    "icon": "FaMosque",
+    "name": "mosque"
+  },
+  {
+    "icon": "FaMotorcycle",
+    "name": "motorcycle"
+  },
+  {
+    "icon": "FaMountain",
+    "name": "mountain"
+  },
+  {
+    "icon": "FaMousePointer",
+    "name": "mouse-pointer"
+  },
+  {
+    "icon": "FaMouse",
+    "name": "mouse"
+  },
+  {
+    "icon": "FaMugHot",
+    "name": "mug-hot"
+  },
+  {
+    "icon": "FaMusic",
+    "name": "music"
+  },
+  {
+    "icon": "FaNetworkWired",
+    "name": "network-wired"
+  },
+  {
+    "icon": "FaNeuter",
+    "name": "neuter"
+  },
+  {
+    "icon": "FaNewspaper",
+    "name": "newspaper"
+  },
+  {
+    "icon": "FaNotEqual",
+    "name": "not-equal"
+  },
+  {
+    "icon": "FaNotesMedical",
+    "name": "notes-medical"
+  },
+  {
+    "icon": "FaObjectGroup",
+    "name": "object-group"
+  },
+  {
+    "icon": "FaObjectUngroup",
+    "name": "object-ungroup"
+  },
+  {
+    "icon": "FaOilCan",
+    "name": "oil-can"
+  },
+  {
+    "icon": "FaOm",
+    "name": "om"
+  },
+  {
+    "icon": "FaOtter",
+    "name": "otter"
+  },
+  {
+    "icon": "FaOutdent",
+    "name": "outdent"
+  },
+  {
+    "icon": "FaPager",
+    "name": "pager"
+  },
+  {
+    "icon": "FaPaintBrush",
+    "name": "paint-brush"
+  },
+  {
+    "icon": "FaPaintRoller",
+    "name": "paint-roller"
+  },
+  {
+    "icon": "FaPalette",
+    "name": "palette"
+  },
+  {
+    "icon": "FaPallet",
+    "name": "pallet"
+  },
+  {
+    "icon": "FaPaperPlane",
+    "name": "paper-plane"
+  },
+  {
+    "icon": "FaPaperclip",
+    "name": "paperclip"
+  },
+  {
+    "icon": "FaParachuteBox",
+    "name": "parachute-box"
+  },
+  {
+    "icon": "FaParagraph",
+    "name": "paragraph"
+  },
+  {
+    "icon": "FaParking",
+    "name": "parking"
+  },
+  {
+    "icon": "FaPassport",
+    "name": "passport"
+  },
+  {
+    "icon": "FaPastafarianism",
+    "name": "pastafarianism"
+  },
+  {
+    "icon": "FaPaste",
+    "name": "paste"
+  },
+  {
+    "icon": "FaPauseCircle",
+    "name": "pause-circle"
+  },
+  {
+    "icon": "FaPause",
+    "name": "pause"
+  },
+  {
+    "icon": "FaPaw",
+    "name": "paw"
+  },
+  {
+    "icon": "FaPeace",
+    "name": "peace"
+  },
+  {
+    "icon": "FaPenAlt",
+    "name": "pen-alt"
+  },
+  {
+    "icon": "FaPenFancy",
+    "name": "pen-fancy"
+  },
+  {
+    "icon": "FaPenNib",
+    "name": "pen-nib"
+  },
+  {
+    "icon": "FaPenSquare",
+    "name": "pen-square"
+  },
+  {
+    "icon": "FaPen",
+    "name": "pen"
+  },
+  {
+    "icon": "FaPencilAlt",
+    "name": "pencil-alt"
+  },
+  {
+    "icon": "FaPencilRuler",
+    "name": "pencil-ruler"
+  },
+  {
+    "icon": "FaPeopleArrows",
+    "name": "people-arrows"
+  },
+  {
+    "icon": "FaPeopleCarry",
+    "name": "people-carry"
+  },
+  {
+    "icon": "FaPepperHot",
+    "name": "pepper-hot"
+  },
+  {
+    "icon": "FaPercent",
+    "name": "percent"
+  },
+  {
+    "icon": "FaPercentage",
+    "name": "percentage"
+  },
+  {
+    "icon": "FaPersonBooth",
+    "name": "person-booth"
+  },
+  {
+    "icon": "FaPhoneAlt",
+    "name": "phone-alt"
+  },
+  {
+    "icon": "FaPhoneSlash",
+    "name": "phone-slash"
+  },
+  {
+    "icon": "FaPhoneSquareAlt",
+    "name": "phone-square-alt"
+  },
+  {
+    "icon": "FaPhoneSquare",
+    "name": "phone-square"
+  },
+  {
+    "icon": "FaPhoneVolume",
+    "name": "phone-volume"
+  },
+  {
+    "icon": "FaPhone",
+    "name": "phone"
+  },
+  {
+    "icon": "FaPhotoVideo",
+    "name": "photo-video"
+  },
+  {
+    "icon": "FaPiggyBank",
+    "name": "piggy-bank"
+  },
+  {
+    "icon": "FaPills",
+    "name": "pills"
+  },
+  {
+    "icon": "FaPizzaSlice",
+    "name": "pizza-slice"
+  },
+  {
+    "icon": "FaPlaceOfWorship",
+    "name": "place-of-worship"
+  },
+  {
+    "icon": "FaPlaneArrival",
+    "name": "plane-arrival"
+  },
+  {
+    "icon": "FaPlaneDeparture",
+    "name": "plane-departure"
+  },
+  {
+    "icon": "FaPlaneSlash",
+    "name": "plane-slash"
+  },
+  {
+    "icon": "FaPlane",
+    "name": "plane"
+  },
+  {
+    "icon": "FaPlayCircle",
+    "name": "play-circle"
+  },
+  {
+    "icon": "FaPlay",
+    "name": "play"
+  },
+  {
+    "icon": "FaPlug",
+    "name": "plug"
+  },
+  {
+    "icon": "FaPlusCircle",
+    "name": "plus-circle"
+  },
+  {
+    "icon": "FaPlusSquare",
+    "name": "plus-square"
+  },
+  {
+    "icon": "FaPlus",
+    "name": "plus"
+  },
+  {
+    "icon": "FaPodcast",
+    "name": "podcast"
+  },
+  {
+    "icon": "FaPollH",
+    "name": "poll-h"
+  },
+  {
+    "icon": "FaPoll",
+    "name": "poll"
+  },
+  {
+    "icon": "FaPooStorm",
+    "name": "poo-storm"
+  },
+  {
+    "icon": "FaPoo",
+    "name": "poo"
+  },
+  {
+    "icon": "FaPoop",
+    "name": "poop"
+  },
+  {
+    "icon": "FaPortrait",
+    "name": "portrait"
+  },
+  {
+    "icon": "FaPoundSign",
+    "name": "pound-sign"
+  },
+  {
+    "icon": "FaPowerOff",
+    "name": "power-off"
+  },
+  {
+    "icon": "FaPray",
+    "name": "pray"
+  },
+  {
+    "icon": "FaPrayingHands",
+    "name": "praying-hands"
+  },
+  {
+    "icon": "FaPrescriptionBottleAlt",
+    "name": "prescription-bottle-alt"
+  },
+  {
+    "icon": "FaPrescriptionBottle",
+    "name": "prescription-bottle"
+  },
+  {
+    "icon": "FaPrescription",
+    "name": "prescription"
+  },
+  {
+    "icon": "FaPrint",
+    "name": "print"
+  },
+  {
+    "icon": "FaProcedures",
+    "name": "procedures"
+  },
+  {
+    "icon": "FaProjectDiagram",
+    "name": "project-diagram"
+  },
+  {
+    "icon": "FaPumpMedical",
+    "name": "pump-medical"
+  },
+  {
+    "icon": "FaPumpSoap",
+    "name": "pump-soap"
+  },
+  {
+    "icon": "FaPuzzlePiece",
+    "name": "puzzle-piece"
+  },
+  {
+    "icon": "FaQrcode",
+    "name": "qrcode"
+  },
+  {
+    "icon": "FaQuestionCircle",
+    "name": "question-circle"
+  },
+  {
+    "icon": "FaQuestion",
+    "name": "question"
+  },
+  {
+    "icon": "FaQuidditch",
+    "name": "quidditch"
+  },
+  {
+    "icon": "FaQuoteLeft",
+    "name": "quote-left"
+  },
+  {
+    "icon": "FaQuoteRight",
+    "name": "quote-right"
+  },
+  {
+    "icon": "FaQuran",
+    "name": "quran"
+  },
+  {
+    "icon": "FaRadiationAlt",
+    "name": "radiation-alt"
+  },
+  {
+    "icon": "FaRadiation",
+    "name": "radiation"
+  },
+  {
+    "icon": "FaRainbow",
+    "name": "rainbow"
+  },
+  {
+    "icon": "FaRandom",
+    "name": "random"
+  },
+  {
+    "icon": "FaReceipt",
+    "name": "receipt"
+  },
+  {
+    "icon": "FaRecordVinyl",
+    "name": "record-vinyl"
+  },
+  {
+    "icon": "FaRecycle",
+    "name": "recycle"
+  },
+  {
+    "icon": "FaRedoAlt",
+    "name": "redo-alt"
+  },
+  {
+    "icon": "FaRedo",
+    "name": "redo"
+  },
+  {
+    "icon": "FaRegistered",
+    "name": "registered"
+  },
+  {
+    "icon": "FaRemoveFormat",
+    "name": "remove-format"
+  },
+  {
+    "icon": "FaReplyAll",
+    "name": "reply-all"
+  },
+  {
+    "icon": "FaReply",
+    "name": "reply"
+  },
+  {
+    "icon": "FaRepublican",
+    "name": "republican"
+  },
+  {
+    "icon": "FaRestroom",
+    "name": "restroom"
+  },
+  {
+    "icon": "FaRetweet",
+    "name": "retweet"
+  },
+  {
+    "icon": "FaRibbon",
+    "name": "ribbon"
+  },
+  {
+    "icon": "FaRing",
+    "name": "ring"
+  },
+  {
+    "icon": "FaRoad",
+    "name": "road"
+  },
+  {
+    "icon": "FaRobot",
+    "name": "robot"
+  },
+  {
+    "icon": "FaRocket",
+    "name": "rocket"
+  },
+  {
+    "icon": "FaRoute",
+    "name": "route"
+  },
+  {
+    "icon": "FaRssSquare",
+    "name": "rss-square"
+  },
+  {
+    "icon": "FaRss",
+    "name": "rss"
+  },
+  {
+    "icon": "FaRubleSign",
+    "name": "ruble-sign"
+  },
+  {
+    "icon": "FaRulerCombined",
+    "name": "ruler-combined"
+  },
+  {
+    "icon": "FaRulerHorizontal",
+    "name": "ruler-horizontal"
+  },
+  {
+    "icon": "FaRulerVertical",
+    "name": "ruler-vertical"
+  },
+  {
+    "icon": "FaRuler",
+    "name": "ruler"
+  },
+  {
+    "icon": "FaRunning",
+    "name": "running"
+  },
+  {
+    "icon": "FaRupeeSign",
+    "name": "rupee-sign"
+  },
+  {
+    "icon": "FaSadCry",
+    "name": "sad-cry"
+  },
+  {
+    "icon": "FaSadTear",
+    "name": "sad-tear"
+  },
+  {
+    "icon": "FaSatelliteDish",
+    "name": "satellite-dish"
+  },
+  {
+    "icon": "FaSatellite",
+    "name": "satellite"
+  },
+  {
+    "icon": "FaSave",
+    "name": "save"
+  },
+  {
+    "icon": "FaSchool",
+    "name": "school"
+  },
+  {
+    "icon": "FaScrewdriver",
+    "name": "screwdriver"
+  },
+  {
+    "icon": "FaScroll",
+    "name": "scroll"
+  },
+  {
+    "icon": "FaSdCard",
+    "name": "sd-card"
+  },
+  {
+    "icon": "FaSearchDollar",
+    "name": "search-dollar"
+  },
+  {
+    "icon": "FaSearchLocation",
+    "name": "search-location"
+  },
+  {
+    "icon": "FaSearchMinus",
+    "name": "search-minus"
+  },
+  {
+    "icon": "FaSearchPlus",
+    "name": "search-plus"
+  },
+  {
+    "icon": "FaSearch",
+    "name": "search"
+  },
+  {
+    "icon": "FaSeedling",
+    "name": "seedling"
+  },
+  {
+    "icon": "FaServer",
+    "name": "server"
+  },
+  {
+    "icon": "FaShapes",
+    "name": "shapes"
+  },
+  {
+    "icon": "FaShareAltSquare",
+    "name": "share-alt-square"
+  },
+  {
+    "icon": "FaShareAlt",
+    "name": "share-alt"
+  },
+  {
+    "icon": "FaShareSquare",
+    "name": "share-square"
+  },
+  {
+    "icon": "FaShare",
+    "name": "share"
+  },
+  {
+    "icon": "FaShekelSign",
+    "name": "shekel-sign"
+  },
+  {
+    "icon": "FaShieldAlt",
+    "name": "shield-alt"
+  },
+  {
+    "icon": "FaShieldVirus",
+    "name": "shield-virus"
+  },
+  {
+    "icon": "FaShip",
+    "name": "ship"
+  },
+  {
+    "icon": "FaShippingFast",
+    "name": "shipping-fast"
+  },
+  {
+    "icon": "FaShoePrints",
+    "name": "shoe-prints"
+  },
+  {
+    "icon": "FaShoppingBag",
+    "name": "shopping-bag"
+  },
+  {
+    "icon": "FaShoppingBasket",
+    "name": "shopping-basket"
+  },
+  {
+    "icon": "FaShoppingCart",
+    "name": "shopping-cart"
+  },
+  {
+    "icon": "FaShower",
+    "name": "shower"
+  },
+  {
+    "icon": "FaShuttleVan",
+    "name": "shuttle-van"
+  },
+  {
+    "icon": "FaSignInAlt",
+    "name": "sign-in-alt"
+  },
+  {
+    "icon": "FaSignLanguage",
+    "name": "sign-language"
+  },
+  {
+    "icon": "FaSignOutAlt",
+    "name": "sign-out-alt"
+  },
+  {
+    "icon": "FaSign",
+    "name": "sign"
+  },
+  {
+    "icon": "FaSignal",
+    "name": "signal"
+  },
+  {
+    "icon": "FaSignature",
+    "name": "signature"
+  },
+  {
+    "icon": "FaSimCard",
+    "name": "sim-card"
+  },
+  {
+    "icon": "FaSink",
+    "name": "sink"
+  },
+  {
+    "icon": "FaSitemap",
+    "name": "sitemap"
+  },
+  {
+    "icon": "FaSkating",
+    "name": "skating"
+  },
+  {
+    "icon": "FaSkiingNordic",
+    "name": "skiing-nordic"
+  },
+  {
+    "icon": "FaSkiing",
+    "name": "skiing"
+  },
+  {
+    "icon": "FaSkullCrossbones",
+    "name": "skull-crossbones"
+  },
+  {
+    "icon": "FaSkull",
+    "name": "skull"
+  },
+  {
+    "icon": "FaSlash",
+    "name": "slash"
+  },
+  {
+    "icon": "FaSleigh",
+    "name": "sleigh"
+  },
+  {
+    "icon": "FaSlidersH",
+    "name": "sliders-h"
+  },
+  {
+    "icon": "FaSmileBeam",
+    "name": "smile-beam"
+  },
+  {
+    "icon": "FaSmileWink",
+    "name": "smile-wink"
+  },
+  {
+    "icon": "FaSmile",
+    "name": "smile"
+  },
+  {
+    "icon": "FaSmog",
+    "name": "smog"
+  },
+  {
+    "icon": "FaSmokingBan",
+    "name": "smoking-ban"
+  },
+  {
+    "icon": "FaSmoking",
+    "name": "smoking"
+  },
+  {
+    "icon": "FaSms",
+    "name": "sms"
+  },
+  {
+    "icon": "FaSnowboarding",
+    "name": "snowboarding"
+  },
+  {
+    "icon": "FaSnowflake",
+    "name": "snowflake"
+  },
+  {
+    "icon": "FaSnowman",
+    "name": "snowman"
+  },
+  {
+    "icon": "FaSnowplow",
+    "name": "snowplow"
+  },
+  {
+    "icon": "FaSoap",
+    "name": "soap"
+  },
+  {
+    "icon": "FaSocks",
+    "name": "socks"
+  },
+  {
+    "icon": "FaSolarPanel",
+    "name": "solar-panel"
+  },
+  {
+    "icon": "FaSortAlphaDownAlt",
+    "name": "sort-alpha-down-alt"
+  },
+  {
+    "icon": "FaSortAlphaDown",
+    "name": "sort-alpha-down"
+  },
+  {
+    "icon": "FaSortAlphaUpAlt",
+    "name": "sort-alpha-up-alt"
+  },
+  {
+    "icon": "FaSortAlphaUp",
+    "name": "sort-alpha-up"
+  },
+  {
+    "icon": "FaSortAmountDownAlt",
+    "name": "sort-amount-down-alt"
+  },
+  {
+    "icon": "FaSortAmountDown",
+    "name": "sort-amount-down"
+  },
+  {
+    "icon": "FaSortAmountUpAlt",
+    "name": "sort-amount-up-alt"
+  },
+  {
+    "icon": "FaSortAmountUp",
+    "name": "sort-amount-up"
+  },
+  {
+    "icon": "FaSortDown",
+    "name": "sort-down"
+  },
+  {
+    "icon": "FaSortNumericDownAlt",
+    "name": "sort-numeric-down-alt"
+  },
+  {
+    "icon": "FaSortNumericDown",
+    "name": "sort-numeric-down"
+  },
+  {
+    "icon": "FaSortNumericUpAlt",
+    "name": "sort-numeric-up-alt"
+  },
+  {
+    "icon": "FaSortNumericUp",
+    "name": "sort-numeric-up"
+  },
+  {
+    "icon": "FaSortUp",
+    "name": "sort-up"
+  },
+  {
+    "icon": "FaSort",
+    "name": "sort"
+  },
+  {
+    "icon": "FaSpa",
+    "name": "spa"
+  },
+  {
+    "icon": "FaSpaceShuttle",
+    "name": "space-shuttle"
+  },
+  {
+    "icon": "FaSpellCheck",
+    "name": "spell-check"
+  },
+  {
+    "icon": "FaSpider",
+    "name": "spider"
+  },
+  {
+    "icon": "FaSpinner",
+    "name": "spinner"
+  },
+  {
+    "icon": "FaSplotch",
+    "name": "splotch"
+  },
+  {
+    "icon": "FaSprayCan",
+    "name": "spray-can"
+  },
+  {
+    "icon": "FaSquareFull",
+    "name": "square-full"
+  },
+  {
+    "icon": "FaSquareRootAlt",
+    "name": "square-root-alt"
+  },
+  {
+    "icon": "FaSquare",
+    "name": "square"
+  },
+  {
+    "icon": "FaStamp",
+    "name": "stamp"
+  },
+  {
+    "icon": "FaStarAndCrescent",
+    "name": "star-and-crescent"
+  },
+  {
+    "icon": "FaStarHalfAlt",
+    "name": "star-half-alt"
+  },
+  {
+    "icon": "FaStarHalf",
+    "name": "star-half"
+  },
+  {
+    "icon": "FaStarOfDavid",
+    "name": "star-of-david"
+  },
+  {
+    "icon": "FaStarOfLife",
+    "name": "star-of-life"
+  },
+  {
+    "icon": "FaStar",
+    "name": "star"
+  },
+  {
+    "icon": "FaStepBackward",
+    "name": "step-backward"
+  },
+  {
+    "icon": "FaStepForward",
+    "name": "step-forward"
+  },
+  {
+    "icon": "FaStethoscope",
+    "name": "stethoscope"
+  },
+  {
+    "icon": "FaStickyNote",
+    "name": "sticky-note"
+  },
+  {
+    "icon": "FaStopCircle",
+    "name": "stop-circle"
+  },
+  {
+    "icon": "FaStop",
+    "name": "stop"
+  },
+  {
+    "icon": "FaStopwatch20",
+    "name": "stopwatch20"
+  },
+  {
+    "icon": "FaStopwatch",
+    "name": "stopwatch"
+  },
+  {
+    "icon": "FaStoreAltSlash",
+    "name": "store-alt-slash"
+  },
+  {
+    "icon": "FaStoreAlt",
+    "name": "store-alt"
+  },
+  {
+    "icon": "FaStoreSlash",
+    "name": "store-slash"
+  },
+  {
+    "icon": "FaStore",
+    "name": "store"
+  },
+  {
+    "icon": "FaStream",
+    "name": "stream"
+  },
+  {
+    "icon": "FaStreetView",
+    "name": "street-view"
+  },
+  {
+    "icon": "FaStrikethrough",
+    "name": "strikethrough"
+  },
+  {
+    "icon": "FaStroopwafel",
+    "name": "stroopwafel"
+  },
+  {
+    "icon": "FaSubscript",
+    "name": "subscript"
+  },
+  {
+    "icon": "FaSubway",
+    "name": "subway"
+  },
+  {
+    "icon": "FaSuitcaseRolling",
+    "name": "suitcase-rolling"
+  },
+  {
+    "icon": "FaSuitcase",
+    "name": "suitcase"
+  },
+  {
+    "icon": "FaSun",
+    "name": "sun"
+  },
+  {
+    "icon": "FaSuperscript",
+    "name": "superscript"
+  },
+  {
+    "icon": "FaSurprise",
+    "name": "surprise"
+  },
+  {
+    "icon": "FaSwatchbook",
+    "name": "swatchbook"
+  },
+  {
+    "icon": "FaSwimmer",
+    "name": "swimmer"
+  },
+  {
+    "icon": "FaSwimmingPool",
+    "name": "swimming-pool"
+  },
+  {
+    "icon": "FaSynagogue",
+    "name": "synagogue"
+  },
+  {
+    "icon": "FaSyncAlt",
+    "name": "sync-alt"
+  },
+  {
+    "icon": "FaSync",
+    "name": "sync"
+  },
+  {
+    "icon": "FaSyringe",
+    "name": "syringe"
+  },
+  {
+    "icon": "FaTableTennis",
+    "name": "table-tennis"
+  },
+  {
+    "icon": "FaTable",
+    "name": "table"
+  },
+  {
+    "icon": "FaTabletAlt",
+    "name": "tablet-alt"
+  },
+  {
+    "icon": "FaTablet",
+    "name": "tablet"
+  },
+  {
+    "icon": "FaTablets",
+    "name": "tablets"
+  },
+  {
+    "icon": "FaTachometerAlt",
+    "name": "tachometer-alt"
+  },
+  {
+    "icon": "FaTag",
+    "name": "tag"
+  },
+  {
+    "icon": "FaTags",
+    "name": "tags"
+  },
+  {
+    "icon": "FaTape",
+    "name": "tape"
+  },
+  {
+    "icon": "FaTasks",
+    "name": "tasks"
+  },
+  {
+    "icon": "FaTaxi",
+    "name": "taxi"
+  },
+  {
+    "icon": "FaTeethOpen",
+    "name": "teeth-open"
+  },
+  {
+    "icon": "FaTeeth",
+    "name": "teeth"
+  },
+  {
+    "icon": "FaTemperatureHigh",
+    "name": "temperature-high"
+  },
+  {
+    "icon": "FaTemperatureLow",
+    "name": "temperature-low"
+  },
+  {
+    "icon": "FaTenge",
+    "name": "tenge"
+  },
+  {
+    "icon": "FaTerminal",
+    "name": "terminal"
+  },
+  {
+    "icon": "FaTextHeight",
+    "name": "text-height"
+  },
+  {
+    "icon": "FaTextWidth",
+    "name": "text-width"
+  },
+  {
+    "icon": "FaThLarge",
+    "name": "th-large"
+  },
+  {
+    "icon": "FaThList",
+    "name": "th-list"
+  },
+  {
+    "icon": "FaTh",
+    "name": "th"
+  },
+  {
+    "icon": "FaTheaterMasks",
+    "name": "theater-masks"
+  },
+  {
+    "icon": "FaThermometerEmpty",
+    "name": "thermometer-empty"
+  },
+  {
+    "icon": "FaThermometerFull",
+    "name": "thermometer-full"
+  },
+  {
+    "icon": "FaThermometerHalf",
+    "name": "thermometer-half"
+  },
+  {
+    "icon": "FaThermometerQuarter",
+    "name": "thermometer-quarter"
+  },
+  {
+    "icon": "FaThermometerThreeQuarters",
+    "name": "thermometer-three-quarters"
+  },
+  {
+    "icon": "FaThermometer",
+    "name": "thermometer"
+  },
+  {
+    "icon": "FaThumbsDown",
+    "name": "thumbs-down"
+  },
+  {
+    "icon": "FaThumbsUp",
+    "name": "thumbs-up"
+  },
+  {
+    "icon": "FaThumbtack",
+    "name": "thumbtack"
+  },
+  {
+    "icon": "FaTicketAlt",
+    "name": "ticket-alt"
+  },
+  {
+    "icon": "FaTimesCircle",
+    "name": "times-circle"
+  },
+  {
+    "icon": "FaTimes",
+    "name": "times"
+  },
+  {
+    "icon": "FaTintSlash",
+    "name": "tint-slash"
+  },
+  {
+    "icon": "FaTint",
+    "name": "tint"
+  },
+  {
+    "icon": "FaTired",
+    "name": "tired"
+  },
+  {
+    "icon": "FaToggleOff",
+    "name": "toggle-off"
+  },
+  {
+    "icon": "FaToggleOn",
+    "name": "toggle-on"
+  },
+  {
+    "icon": "FaToiletPaperSlash",
+    "name": "toilet-paper-slash"
+  },
+  {
+    "icon": "FaToiletPaper",
+    "name": "toilet-paper"
+  },
+  {
+    "icon": "FaToilet",
+    "name": "toilet"
+  },
+  {
+    "icon": "FaToolbox",
+    "name": "toolbox"
+  },
+  {
+    "icon": "FaTools",
+    "name": "tools"
+  },
+  {
+    "icon": "FaTooth",
+    "name": "tooth"
+  },
+  {
+    "icon": "FaTorah",
+    "name": "torah"
+  },
+  {
+    "icon": "FaToriiGate",
+    "name": "torii-gate"
+  },
+  {
+    "icon": "FaTractor",
+    "name": "tractor"
+  },
+  {
+    "icon": "FaTrademark",
+    "name": "trademark"
+  },
+  {
+    "icon": "FaTrafficLight",
+    "name": "traffic-light"
+  },
+  {
+    "icon": "FaTrailer",
+    "name": "trailer"
+  },
+  {
+    "icon": "FaTrain",
+    "name": "train"
+  },
+  {
+    "icon": "FaTram",
+    "name": "tram"
+  },
+  {
+    "icon": "FaTransgenderAlt",
+    "name": "transgender-alt"
+  },
+  {
+    "icon": "FaTransgender",
+    "name": "transgender"
+  },
+  {
+    "icon": "FaTrashAlt",
+    "name": "trash-alt"
+  },
+  {
+    "icon": "FaTrashRestoreAlt",
+    "name": "trash-restore-alt"
+  },
+  {
+    "icon": "FaTrashRestore",
+    "name": "trash-restore"
+  },
+  {
+    "icon": "FaTrash",
+    "name": "trash"
+  },
+  {
+    "icon": "FaTree",
+    "name": "tree"
+  },
+  {
+    "icon": "FaTrophy",
+    "name": "trophy"
+  },
+  {
+    "icon": "FaTruckLoading",
+    "name": "truck-loading"
+  },
+  {
+    "icon": "FaTruckMonster",
+    "name": "truck-monster"
+  },
+  {
+    "icon": "FaTruckMoving",
+    "name": "truck-moving"
+  },
+  {
+    "icon": "FaTruckPickup",
+    "name": "truck-pickup"
+  },
+  {
+    "icon": "FaTruck",
+    "name": "truck"
+  },
+  {
+    "icon": "FaTshirt",
+    "name": "tshirt"
+  },
+  {
+    "icon": "FaTty",
+    "name": "tty"
+  },
+  {
+    "icon": "FaTv",
+    "name": "tv"
+  },
+  {
+    "icon": "FaUmbrellaBeach",
+    "name": "umbrella-beach"
+  },
+  {
+    "icon": "FaUmbrella",
+    "name": "umbrella"
+  },
+  {
+    "icon": "FaUnderline",
+    "name": "underline"
+  },
+  {
+    "icon": "FaUndoAlt",
+    "name": "undo-alt"
+  },
+  {
+    "icon": "FaUndo",
+    "name": "undo"
+  },
+  {
+    "icon": "FaUniversalAccess",
+    "name": "universal-access"
+  },
+  {
+    "icon": "FaUniversity",
+    "name": "university"
+  },
+  {
+    "icon": "FaUnlink",
+    "name": "unlink"
+  },
+  {
+    "icon": "FaUnlockAlt",
+    "name": "unlock-alt"
+  },
+  {
+    "icon": "FaUnlock",
+    "name": "unlock"
+  },
+  {
+    "icon": "FaUpload",
+    "name": "upload"
+  },
+  {
+    "icon": "FaUserAltSlash",
+    "name": "user-alt-slash"
+  },
+  {
+    "icon": "FaUserAlt",
+    "name": "user-alt"
+  },
+  {
+    "icon": "FaUserAstronaut",
+    "name": "user-astronaut"
+  },
+  {
+    "icon": "FaUserCheck",
+    "name": "user-check"
+  },
+  {
+    "icon": "FaUserCircle",
+    "name": "user-circle"
+  },
+  {
+    "icon": "FaUserClock",
+    "name": "user-clock"
+  },
+  {
+    "icon": "FaUserCog",
+    "name": "user-cog"
+  },
+  {
+    "icon": "FaUserEdit",
+    "name": "user-edit"
+  },
+  {
+    "icon": "FaUserFriends",
+    "name": "user-friends"
+  },
+  {
+    "icon": "FaUserGraduate",
+    "name": "user-graduate"
+  },
+  {
+    "icon": "FaUserInjured",
+    "name": "user-injured"
+  },
+  {
+    "icon": "FaUserLock",
+    "name": "user-lock"
+  },
+  {
+    "icon": "FaUserMd",
+    "name": "user-md"
+  },
+  {
+    "icon": "FaUserMinus",
+    "name": "user-minus"
+  },
+  {
+    "icon": "FaUserNinja",
+    "name": "user-ninja"
+  },
+  {
+    "icon": "FaUserNurse",
+    "name": "user-nurse"
+  },
+  {
+    "icon": "FaUserPlus",
+    "name": "user-plus"
+  },
+  {
+    "icon": "FaUserSecret",
+    "name": "user-secret"
+  },
+  {
+    "icon": "FaUserShield",
+    "name": "user-shield"
+  },
+  {
+    "icon": "FaUserSlash",
+    "name": "user-slash"
+  },
+  {
+    "icon": "FaUserTag",
+    "name": "user-tag"
+  },
+  {
+    "icon": "FaUserTie",
+    "name": "user-tie"
+  },
+  {
+    "icon": "FaUserTimes",
+    "name": "user-times"
+  },
+  {
+    "icon": "FaUser",
+    "name": "user"
+  },
+  {
+    "icon": "FaUsersCog",
+    "name": "users-cog"
+  },
+  {
+    "icon": "FaUsersSlash",
+    "name": "users-slash"
+  },
+  {
+    "icon": "FaUsers",
+    "name": "users"
+  },
+  {
+    "icon": "FaUtensilSpoon",
+    "name": "utensil-spoon"
+  },
+  {
+    "icon": "FaUtensils",
+    "name": "utensils"
+  },
+  {
+    "icon": "FaVectorSquare",
+    "name": "vector-square"
+  },
+  {
+    "icon": "FaVenusDouble",
+    "name": "venus-double"
+  },
+  {
+    "icon": "FaVenusMars",
+    "name": "venus-mars"
+  },
+  {
+    "icon": "FaVenus",
+    "name": "venus"
+  },
+  {
+    "icon": "FaVestPatches",
+    "name": "vest-patches"
+  },
+  {
+    "icon": "FaVest",
+    "name": "vest"
+  },
+  {
+    "icon": "FaVial",
+    "name": "vial"
+  },
+  {
+    "icon": "FaVials",
+    "name": "vials"
+  },
+  {
+    "icon": "FaVideoSlash",
+    "name": "video-slash"
+  },
+  {
+    "icon": "FaVideo",
+    "name": "video"
+  },
+  {
+    "icon": "FaVihara",
+    "name": "vihara"
+  },
+  {
+    "icon": "FaVirusSlash",
+    "name": "virus-slash"
+  },
+  {
+    "icon": "FaVirus",
+    "name": "virus"
+  },
+  {
+    "icon": "FaViruses",
+    "name": "viruses"
+  },
+  {
+    "icon": "FaVoicemail",
+    "name": "voicemail"
+  },
+  {
+    "icon": "FaVolleyballBall",
+    "name": "volleyball-ball"
+  },
+  {
+    "icon": "FaVolumeDown",
+    "name": "volume-down"
+  },
+  {
+    "icon": "FaVolumeMute",
+    "name": "volume-mute"
+  },
+  {
+    "icon": "FaVolumeOff",
+    "name": "volume-off"
+  },
+  {
+    "icon": "FaVolumeUp",
+    "name": "volume-up"
+  },
+  {
+    "icon": "FaVoteYea",
+    "name": "vote-yea"
+  },
+  {
+    "icon": "FaVrCardboard",
+    "name": "vr-cardboard"
+  },
+  {
+    "icon": "FaWalking",
+    "name": "walking"
+  },
+  {
+    "icon": "FaWallet",
+    "name": "wallet"
+  },
+  {
+    "icon": "FaWarehouse",
+    "name": "warehouse"
+  },
+  {
+    "icon": "FaWater",
+    "name": "water"
+  },
+  {
+    "icon": "FaWaveSquare",
+    "name": "wave-square"
+  },
+  {
+    "icon": "FaWeightHanging",
+    "name": "weight-hanging"
+  },
+  {
+    "icon": "FaWeight",
+    "name": "weight"
+  },
+  {
+    "icon": "FaWheelchair",
+    "name": "wheelchair"
+  },
+  {
+    "icon": "FaWifi",
+    "name": "wifi"
+  },
+  {
+    "icon": "FaWind",
+    "name": "wind"
+  },
+  {
+    "icon": "FaWindowClose",
+    "name": "window-close"
+  },
+  {
+    "icon": "FaWindowMaximize",
+    "name": "window-maximize"
+  },
+  {
+    "icon": "FaWindowMinimize",
+    "name": "window-minimize"
+  },
+  {
+    "icon": "FaWindowRestore",
+    "name": "window-restore"
+  },
+  {
+    "icon": "FaWineBottle",
+    "name": "wine-bottle"
+  },
+  {
+    "icon": "FaWineGlassAlt",
+    "name": "wine-glass-alt"
+  },
+  {
+    "icon": "FaWineGlass",
+    "name": "wine-glass"
+  },
+  {
+    "icon": "FaWonSign",
+    "name": "won-sign"
+  },
+  {
+    "icon": "FaWrench",
+    "name": "wrench"
+  },
+  {
+    "icon": "FaXRay",
+    "name": "x-ray"
+  },
+  {
+    "icon": "FaYenSign",
+    "name": "yen-sign"
+  },
+  {
+    "icon": "FaYinYang",
+    "name": "yin-yang"
+  },
+  {
+    "icon": "FaRegAddressBook",
+    "name": "reg-address-book"
+  },
+  {
+    "icon": "FaRegAddressCard",
+    "name": "reg-address-card"
+  },
+  {
+    "icon": "FaRegAngry",
+    "name": "reg-angry"
+  },
+  {
+    "icon": "FaRegArrowAltCircleDown",
+    "name": "reg-arrow-alt-circle-down"
+  },
+  {
+    "icon": "FaRegArrowAltCircleLeft",
+    "name": "reg-arrow-alt-circle-left"
+  },
+  {
+    "icon": "FaRegArrowAltCircleRight",
+    "name": "reg-arrow-alt-circle-right"
+  },
+  {
+    "icon": "FaRegArrowAltCircleUp",
+    "name": "reg-arrow-alt-circle-up"
+  },
+  {
+    "icon": "FaRegBellSlash",
+    "name": "reg-bell-slash"
+  },
+  {
+    "icon": "FaRegBell",
+    "name": "reg-bell"
+  },
+  {
+    "icon": "FaRegBookmark",
+    "name": "reg-bookmark"
+  },
+  {
+    "icon": "FaRegBuilding",
+    "name": "reg-building"
+  },
+  {
+    "icon": "FaRegCalendarAlt",
+    "name": "reg-calendar-alt"
+  },
+  {
+    "icon": "FaRegCalendarCheck",
+    "name": "reg-calendar-check"
+  },
+  {
+    "icon": "FaRegCalendarMinus",
+    "name": "reg-calendar-minus"
+  },
+  {
+    "icon": "FaRegCalendarPlus",
+    "name": "reg-calendar-plus"
+  },
+  {
+    "icon": "FaRegCalendarTimes",
+    "name": "reg-calendar-times"
+  },
+  {
+    "icon": "FaRegCalendar",
+    "name": "reg-calendar"
+  },
+  {
+    "icon": "FaRegCaretSquareDown",
+    "name": "reg-caret-square-down"
+  },
+  {
+    "icon": "FaRegCaretSquareLeft",
+    "name": "reg-caret-square-left"
+  },
+  {
+    "icon": "FaRegCaretSquareRight",
+    "name": "reg-caret-square-right"
+  },
+  {
+    "icon": "FaRegCaretSquareUp",
+    "name": "reg-caret-square-up"
+  },
+  {
+    "icon": "FaRegChartBar",
+    "name": "reg-chart-bar"
+  },
+  {
+    "icon": "FaRegCheckCircle",
+    "name": "reg-check-circle"
+  },
+  {
+    "icon": "FaRegCheckSquare",
+    "name": "reg-check-square"
+  },
+  {
+    "icon": "FaRegCircle",
+    "name": "reg-circle"
+  },
+  {
+    "icon": "FaRegClipboard",
+    "name": "reg-clipboard"
+  },
+  {
+    "icon": "FaRegClock",
+    "name": "reg-clock"
+  },
+  {
+    "icon": "FaRegClone",
+    "name": "reg-clone"
+  },
+  {
+    "icon": "FaRegClosedCaptioning",
+    "name": "reg-closed-captioning"
+  },
+  {
+    "icon": "FaRegCommentAlt",
+    "name": "reg-comment-alt"
+  },
+  {
+    "icon": "FaRegCommentDots",
+    "name": "reg-comment-dots"
+  },
+  {
+    "icon": "FaRegComment",
+    "name": "reg-comment"
+  },
+  {
+    "icon": "FaRegComments",
+    "name": "reg-comments"
+  },
+  {
+    "icon": "FaRegCompass",
+    "name": "reg-compass"
+  },
+  {
+    "icon": "FaRegCopy",
+    "name": "reg-copy"
+  },
+  {
+    "icon": "FaRegCopyright",
+    "name": "reg-copyright"
+  },
+  {
+    "icon": "FaRegCreditCard",
+    "name": "reg-credit-card"
+  },
+  {
+    "icon": "FaRegDizzy",
+    "name": "reg-dizzy"
+  },
+  {
+    "icon": "FaRegDotCircle",
+    "name": "reg-dot-circle"
+  },
+  {
+    "icon": "FaRegEdit",
+    "name": "reg-edit"
+  },
+  {
+    "icon": "FaRegEnvelopeOpen",
+    "name": "reg-envelope-open"
+  },
+  {
+    "icon": "FaRegEnvelope",
+    "name": "reg-envelope"
+  },
+  {
+    "icon": "FaRegEyeSlash",
+    "name": "reg-eye-slash"
+  },
+  {
+    "icon": "FaRegEye",
+    "name": "reg-eye"
+  },
+  {
+    "icon": "FaRegFileAlt",
+    "name": "reg-file-alt"
+  },
+  {
+    "icon": "FaRegFileArchive",
+    "name": "reg-file-archive"
+  },
+  {
+    "icon": "FaRegFileAudio",
+    "name": "reg-file-audio"
+  },
+  {
+    "icon": "FaRegFileCode",
+    "name": "reg-file-code"
+  },
+  {
+    "icon": "FaRegFileExcel",
+    "name": "reg-file-excel"
+  },
+  {
+    "icon": "FaRegFileImage",
+    "name": "reg-file-image"
+  },
+  {
+    "icon": "FaRegFilePdf",
+    "name": "reg-file-pdf"
+  },
+  {
+    "icon": "FaRegFilePowerpoint",
+    "name": "reg-file-powerpoint"
+  },
+  {
+    "icon": "FaRegFileVideo",
+    "name": "reg-file-video"
+  },
+  {
+    "icon": "FaRegFileWord",
+    "name": "reg-file-word"
+  },
+  {
+    "icon": "FaRegFile",
+    "name": "reg-file"
+  },
+  {
+    "icon": "FaRegFlag",
+    "name": "reg-flag"
+  },
+  {
+    "icon": "FaRegFlushed",
+    "name": "reg-flushed"
+  },
+  {
+    "icon": "FaRegFolderOpen",
+    "name": "reg-folder-open"
+  },
+  {
+    "icon": "FaRegFolder",
+    "name": "reg-folder"
+  },
+  {
+    "icon": "FaRegFontAwesomeLogoFull",
+    "name": "reg-font-awesome-logo-full"
+  },
+  {
+    "icon": "FaRegFrownOpen",
+    "name": "reg-frown-open"
+  },
+  {
+    "icon": "FaRegFrown",
+    "name": "reg-frown"
+  },
+  {
+    "icon": "FaRegFutbol",
+    "name": "reg-futbol"
+  },
+  {
+    "icon": "FaRegGem",
+    "name": "reg-gem"
+  },
+  {
+    "icon": "FaRegGrimace",
+    "name": "reg-grimace"
+  },
+  {
+    "icon": "FaRegGrinAlt",
+    "name": "reg-grin-alt"
+  },
+  {
+    "icon": "FaRegGrinBeamSweat",
+    "name": "reg-grin-beam-sweat"
+  },
+  {
+    "icon": "FaRegGrinBeam",
+    "name": "reg-grin-beam"
+  },
+  {
+    "icon": "FaRegGrinHearts",
+    "name": "reg-grin-hearts"
+  },
+  {
+    "icon": "FaRegGrinSquintTears",
+    "name": "reg-grin-squint-tears"
+  },
+  {
+    "icon": "FaRegGrinSquint",
+    "name": "reg-grin-squint"
+  },
+  {
+    "icon": "FaRegGrinStars",
+    "name": "reg-grin-stars"
+  },
+  {
+    "icon": "FaRegGrinTears",
+    "name": "reg-grin-tears"
+  },
+  {
+    "icon": "FaRegGrinTongueSquint",
+    "name": "reg-grin-tongue-squint"
+  },
+  {
+    "icon": "FaRegGrinTongueWink",
+    "name": "reg-grin-tongue-wink"
+  },
+  {
+    "icon": "FaRegGrinTongue",
+    "name": "reg-grin-tongue"
+  },
+  {
+    "icon": "FaRegGrinWink",
+    "name": "reg-grin-wink"
+  },
+  {
+    "icon": "FaRegGrin",
+    "name": "reg-grin"
+  },
+  {
+    "icon": "FaRegHandLizard",
+    "name": "reg-hand-lizard"
+  },
+  {
+    "icon": "FaRegHandPaper",
+    "name": "reg-hand-paper"
+  },
+  {
+    "icon": "FaRegHandPeace",
+    "name": "reg-hand-peace"
+  },
+  {
+    "icon": "FaRegHandPointDown",
+    "name": "reg-hand-point-down"
+  },
+  {
+    "icon": "FaRegHandPointLeft",
+    "name": "reg-hand-point-left"
+  },
+  {
+    "icon": "FaRegHandPointRight",
+    "name": "reg-hand-point-right"
+  },
+  {
+    "icon": "FaRegHandPointUp",
+    "name": "reg-hand-point-up"
+  },
+  {
+    "icon": "FaRegHandPointer",
+    "name": "reg-hand-pointer"
+  },
+  {
+    "icon": "FaRegHandRock",
+    "name": "reg-hand-rock"
+  },
+  {
+    "icon": "FaRegHandScissors",
+    "name": "reg-hand-scissors"
+  },
+  {
+    "icon": "FaRegHandSpock",
+    "name": "reg-hand-spock"
+  },
+  {
+    "icon": "FaRegHandshake",
+    "name": "reg-handshake"
+  },
+  {
+    "icon": "FaRegHdd",
+    "name": "reg-hdd"
+  },
+  {
+    "icon": "FaRegHeart",
+    "name": "reg-heart"
+  },
+  {
+    "icon": "FaRegHospital",
+    "name": "reg-hospital"
+  },
+  {
+    "icon": "FaRegHourglass",
+    "name": "reg-hourglass"
+  },
+  {
+    "icon": "FaRegIdBadge",
+    "name": "reg-id-badge"
+  },
+  {
+    "icon": "FaRegIdCard",
+    "name": "reg-id-card"
+  },
+  {
+    "icon": "FaRegImage",
+    "name": "reg-image"
+  },
+  {
+    "icon": "FaRegImages",
+    "name": "reg-images"
+  },
+  {
+    "icon": "FaRegKeyboard",
+    "name": "reg-keyboard"
+  },
+  {
+    "icon": "FaRegKissBeam",
+    "name": "reg-kiss-beam"
+  },
+  {
+    "icon": "FaRegKissWinkHeart",
+    "name": "reg-kiss-wink-heart"
+  },
+  {
+    "icon": "FaRegKiss",
+    "name": "reg-kiss"
+  },
+  {
+    "icon": "FaRegLaughBeam",
+    "name": "reg-laugh-beam"
+  },
+  {
+    "icon": "FaRegLaughSquint",
+    "name": "reg-laugh-squint"
+  },
+  {
+    "icon": "FaRegLaughWink",
+    "name": "reg-laugh-wink"
+  },
+  {
+    "icon": "FaRegLaugh",
+    "name": "reg-laugh"
+  },
+  {
+    "icon": "FaRegLemon",
+    "name": "reg-lemon"
+  },
+  {
+    "icon": "FaRegLifeRing",
+    "name": "reg-life-ring"
+  },
+  {
+    "icon": "FaRegLightbulb",
+    "name": "reg-lightbulb"
+  },
+  {
+    "icon": "FaRegListAlt",
+    "name": "reg-list-alt"
+  },
+  {
+    "icon": "FaRegMap",
+    "name": "reg-map"
+  },
+  {
+    "icon": "FaRegMehBlank",
+    "name": "reg-meh-blank"
+  },
+  {
+    "icon": "FaRegMehRollingEyes",
+    "name": "reg-meh-rolling-eyes"
+  },
+  {
+    "icon": "FaRegMeh",
+    "name": "reg-meh"
+  },
+  {
+    "icon": "FaRegMinusSquare",
+    "name": "reg-minus-square"
+  },
+  {
+    "icon": "FaRegMoneyBillAlt",
+    "name": "reg-money-bill-alt"
+  },
+  {
+    "icon": "FaRegMoon",
+    "name": "reg-moon"
+  },
+  {
+    "icon": "FaRegNewspaper",
+    "name": "reg-newspaper"
+  },
+  {
+    "icon": "FaRegObjectGroup",
+    "name": "reg-object-group"
+  },
+  {
+    "icon": "FaRegObjectUngroup",
+    "name": "reg-object-ungroup"
+  },
+  {
+    "icon": "FaRegPaperPlane",
+    "name": "reg-paper-plane"
+  },
+  {
+    "icon": "FaRegPauseCircle",
+    "name": "reg-pause-circle"
+  },
+  {
+    "icon": "FaRegPlayCircle",
+    "name": "reg-play-circle"
+  },
+  {
+    "icon": "FaRegPlusSquare",
+    "name": "reg-plus-square"
+  },
+  {
+    "icon": "FaRegQuestionCircle",
+    "name": "reg-question-circle"
+  },
+  {
+    "icon": "FaRegRegistered",
+    "name": "reg-registered"
+  },
+  {
+    "icon": "FaRegSadCry",
+    "name": "reg-sad-cry"
+  },
+  {
+    "icon": "FaRegSadTear",
+    "name": "reg-sad-tear"
+  },
+  {
+    "icon": "FaRegSave",
+    "name": "reg-save"
+  },
+  {
+    "icon": "FaRegShareSquare",
+    "name": "reg-share-square"
+  },
+  {
+    "icon": "FaRegSmileBeam",
+    "name": "reg-smile-beam"
+  },
+  {
+    "icon": "FaRegSmileWink",
+    "name": "reg-smile-wink"
+  },
+  {
+    "icon": "FaRegSmile",
+    "name": "reg-smile"
+  },
+  {
+    "icon": "FaRegSnowflake",
+    "name": "reg-snowflake"
+  },
+  {
+    "icon": "FaRegSquare",
+    "name": "reg-square"
+  },
+  {
+    "icon": "FaRegStarHalf",
+    "name": "reg-star-half"
+  },
+  {
+    "icon": "FaRegStar",
+    "name": "reg-star"
+  },
+  {
+    "icon": "FaRegStickyNote",
+    "name": "reg-sticky-note"
+  },
+  {
+    "icon": "FaRegStopCircle",
+    "name": "reg-stop-circle"
+  },
+  {
+    "icon": "FaRegSun",
+    "name": "reg-sun"
+  },
+  {
+    "icon": "FaRegSurprise",
+    "name": "reg-surprise"
+  },
+  {
+    "icon": "FaRegThumbsDown",
+    "name": "reg-thumbs-down"
+  },
+  {
+    "icon": "FaRegThumbsUp",
+    "name": "reg-thumbs-up"
+  },
+  {
+    "icon": "FaRegTimesCircle",
+    "name": "reg-times-circle"
+  },
+  {
+    "icon": "FaRegTired",
+    "name": "reg-tired"
+  },
+  {
+    "icon": "FaRegTrashAlt",
+    "name": "reg-trash-alt"
+  },
+  {
+    "icon": "FaRegUserCircle",
+    "name": "reg-user-circle"
+  },
+  {
+    "icon": "FaRegUser",
+    "name": "reg-user"
+  },
+  {
+    "icon": "FaRegWindowClose",
+    "name": "reg-window-close"
+  },
+  {
+    "icon": "FaRegWindowMaximize",
+    "name": "reg-window-maximize"
+  },
+  {
+    "icon": "FaRegWindowMinimize",
+    "name": "reg-window-minimize"
+  },
+  {
+    "icon": "FaRegWindowRestore",
+    "name": "reg-window-restore"
+  }
+]
