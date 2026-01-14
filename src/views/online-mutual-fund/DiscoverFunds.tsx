@@ -68,7 +68,7 @@ export function DiscoverFunds() {
     name: fund.name,
     price: `${fund.currency} ${fund.price.toFixed(2)}`,
     currency: fund.currency,
-    performance: `${fund.performanceType === 'gain' ? '+' : ''}${fund.performance}`,
+    performance: `${fund.performance}%`,
     dividendYield: fund.dividendYield,
     riskRating: fund.riskRating,
     actions: 'View'
@@ -165,8 +165,8 @@ export function DiscoverFunds() {
         <div className='row'>
           {sortedAndFilteredFunds.map((fund, index) => (
             <div key={index} className='col-12 col-md-6 col-lg-4 mb-3'>
-              <div className='card h-100 shadow-sm'>
-                <div className='card-body'>
+              <div className='card h-100 shadow-sm d-flex flex-column'>
+                <div className='card-body d-flex flex-column flex-grow-1'>
                   <div className='d-flex justify-content-between mb-2'>
                     <div>
                       {fund.fundSelect ? <span className='badge bg-success px-2 mb-1'>Fund Select</span> : ''}
@@ -175,7 +175,7 @@ export function DiscoverFunds() {
                     <h5 className='text-nowrap'>{fund.currency} {fund.price.toFixed(2)}</h5>
                   </div>
 
-                  <div className='row g-1 mb-3'>
+                  <div className='row g-1 mb-3 flex-grow-1'>
                     <div className='col-6'>
                       <small className='text-muted'>Price</small>
                       <div className='fw-semibold'>{fund.currency} {fund.price.toFixed(2)}</div>
@@ -185,7 +185,7 @@ export function DiscoverFunds() {
                       <div className={`fw-semibold ${
                         fund.performanceType === 'gain' ? 'text-success' : 'text-danger'
                       }`}>
-                        {fund.performance}{fund.performanceType === 'gain' ? <FaCaretUp /> : <FaCaretDown />}
+                        {fund.performance < 0 ? -fund.performance : fund.performance}%{fund.performanceType === 'gain' ? <FaCaretUp /> : <FaCaretDown />}
                       </div>
                     </div>
                     <div className='col-6'>
@@ -202,7 +202,7 @@ export function DiscoverFunds() {
                     </div>
                   </div>
 
-                  <button className='btn btn-primary btn-sm w-100'>
+                  <button className='btn btn-primary btn-sm w-100 mt-auto'>
                     View Details
                   </button>
                 </div>

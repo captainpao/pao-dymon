@@ -63,6 +63,17 @@ export function PaoTable({
     return [...rows].sort((a, b) => {
       const aValue = a[sortKey];
       const bValue = b[sortKey];
+
+      // Try to parse values as numbers for numeric sorting
+      const aNum = parseFloat(aValue);
+      const bNum = parseFloat(bValue);
+
+      // If both values can be parsed as numbers, sort numerically
+      if (!isNaN(aNum) && !isNaN(bNum)) {
+        return sortDirection === 'asc' ? aNum - bNum : bNum - aNum;
+      }
+
+      // Otherwise, sort as strings
       const comparison = aValue.localeCompare(bValue);
       return sortDirection === 'asc' ? comparison : -comparison;
     });
@@ -90,7 +101,7 @@ export function PaoTable({
                 className={Boolean(column.sortable) ? 'cursor-pointer user-select-none' : ''}
                 onClick={() => column.sortable && handleSort(column.key)}
               >
-                <div className="d-flex align-items-center justify-content-between">
+                <div className="d-flex align-items-center justify-content-between small">
                   {column.header}
                   {column.sortable && (
                     <span className="ms-1 text-muted">
