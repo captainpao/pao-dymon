@@ -7,11 +7,11 @@ interface Column {
   header: string;
   sortable?: boolean;
   width?: string;
-  render?: (value: string, row: Row) => React.ReactNode;
+  render?: (value: any, row: Row) => React.ReactNode;
 }
 
 interface Row {
-  [key: string]: string;
+  [key: string]: any;
 }
 
 interface PaoTableProps {
@@ -22,6 +22,7 @@ interface PaoTableProps {
   hover?: boolean;
   bordered?: boolean;
   size?: 'sm' | 'md' | 'lg';
+  minWidth?: string | number;
 }
 
 export function PaoTable({
@@ -31,7 +32,8 @@ export function PaoTable({
   striped = true,
   hover = true,
   bordered = true,
-  size = 'md'
+  size = 'md',
+  minWidth
 }: PaoTableProps) {
   const [sortKey, setSortKey] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>(null);
@@ -90,8 +92,8 @@ export function PaoTable({
 
 
   return (
-    <div className="table-responsive">
-      <table className={tableClass}>
+    <div className="table-responsive overflow-auto">
+      <table className={tableClass} style={{ minWidth: minWidth }}>
         <thead>
           <tr>
             {columns.map((column) => (

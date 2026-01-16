@@ -3,15 +3,25 @@ import { PaoTable } from '../../components/PaoTable';
 export function TableComponent() {
   // Mock columns for the table
   const columns = [
-    { key: 'id', header: 'ID', sortable: true, width: '10%' },
-    { key: 'name', header: 'Name', sortable: true, width: '25%' },
-    { key: 'email', header: 'Email', sortable: true, width: '25%' },
-    { key: 'age', header: 'Age', sortable: true, width: '10%' },
+    { key: 'id', header: 'ID', sortable: true, width: '5%' },
+    { key: 'name', header: 'Name', sortable: true, width: '15%' },
+    { key: 'email', header: 'Email', sortable: true, width: '15%' },
+    { key: 'age', header: 'Age', sortable: true, width: '5%' },
+    { key: 'sex', header: 'Sex', sortable: true, width: '5%' },
+    { key: 'dateOfBirth', header: 'Date of Birth', sortable: true, width: '10%' },
+    { key: 'occupation', header: 'Occupation', sortable: true, width: '15%' },
+    { key: 'phone', header: 'Phone', sortable: true, width: '12%' },
+    {
+      key: 'feedback',
+      header: 'Feedback',
+      sortable: false,
+      width: '15%'
+    },
     {
       key: 'status',
       header: 'Status',
       sortable: true,
-      width: '15%',
+      width: '8%',
       render: (value: string) => {
         const badgeType = value.toLowerCase() === 'active' ? 'success' :
                          value.toLowerCase() === 'pending' ? 'warning' :
@@ -23,7 +33,7 @@ export function TableComponent() {
       key: 'actions',
       header: 'Actions',
       sortable: false,
-      width: '15%',
+      width: '10%',
       render: (value: string) => <button className="btn btn-sm btn-outline-primary">{value}</button>
     }
   ];
@@ -35,6 +45,11 @@ export function TableComponent() {
       name: 'John Doe',
       email: 'john.doe@example.com',
       age: '28',
+      sex: 'M',
+      dateOfBirth: '1995-03-15',
+      occupation: 'Software Engineer',
+      phone: '(555) 123-4567',
+      feedback: 'Excellent team player, always delivers high-quality code on time.',
       status: 'Active',
       actions: 'Edit'
     },
@@ -43,6 +58,11 @@ export function TableComponent() {
       name: 'Jane Smith',
       email: 'jane.smith@example.com',
       age: '32',
+      sex: 'F',
+      dateOfBirth: '1991-07-22',
+      occupation: 'Marketing Manager',
+      phone: '(555) 234-5678',
+      feedback: 'Exceptional leadership skills and creative approach to marketing campaigns.',
       status: 'Pending',
       actions: 'Edit'
     },
@@ -51,6 +71,11 @@ export function TableComponent() {
       name: 'Michael Johnson',
       email: 'michael.j@example.com',
       age: '25',
+      sex: 'M',
+      dateOfBirth: '1998-11-08',
+      occupation: 'Data Analyst',
+      phone: '(555) 345-6789',
+      feedback: 'Strong analytical skills. Would benefit from more experience with data visualization tools.',
       status: 'Active',
       actions: 'Edit'
     },
@@ -59,6 +84,11 @@ export function TableComponent() {
       name: 'Emily Davis',
       email: 'emily.davis@example.com',
       age: '29',
+      sex: 'F',
+      dateOfBirth: '1994-05-30',
+      occupation: 'UX Designer',
+      phone: '(555) 456-7890',
+      feedback: 'Great eye for design and user experience. Demonstrates strong attention to detail.',
       status: 'Inactive',
       actions: 'Edit'
     },
@@ -67,6 +97,11 @@ export function TableComponent() {
       name: 'Robert Wilson',
       email: 'robert.w@example.com',
       age: '35',
+      sex: 'M',
+      dateOfBirth: '1989-01-12',
+      occupation: 'Project Manager',
+      phone: '(555) 567-8901',
+      feedback: 'Experienced manager with strong organizational skills. Needs to improve team communication.',
       status: 'Active',
       actions: 'Edit'
     },
@@ -75,6 +110,11 @@ export function TableComponent() {
       name: 'Sarah Brown',
       email: 'sarah.brown@example.com',
       age: '27',
+      sex: 'F',
+      dateOfBirth: '1996-09-18',
+      occupation: 'Sales Representative',
+      phone: '(555) 678-9012',
+      feedback: 'Outstanding performance in sales. Consistently exceeds targets and builds strong client relationships.',
       status: 'Pending',
       actions: 'Edit'
     },
@@ -83,6 +123,11 @@ export function TableComponent() {
       name: 'David Lee',
       email: 'david.lee@example.com',
       age: '31',
+      sex: 'M',
+      dateOfBirth: '1992-12-03',
+      occupation: 'DevOps Engineer',
+      phone: '(555) 789-0123',
+      feedback: 'Solid technical knowledge and willingness to learn new technologies. Good team collaboration.',
       status: 'Active',
       actions: 'Edit'
     },
@@ -91,6 +136,11 @@ export function TableComponent() {
       name: 'Lisa Anderson',
       email: 'lisa.anderson@example.com',
       age: '26',
+      sex: 'F',
+      dateOfBirth: '1997-06-25',
+      occupation: 'Content Writer',
+      phone: '(555) 890-1234',
+      feedback: 'Creative writer with excellent grammar skills. Content quality consistently meets standards.',
       status: 'Active',
       actions: 'Edit'
     }
@@ -102,7 +152,7 @@ export function TableComponent() {
 
       <div className="card">
         <div className="card-header">
-          <h5 className="mb-0">User Management Table</h5>
+          <h5 className="mb-0">Comprehensive User Directory</h5>
         </div>
         <div className="card-body">
           <PaoTable
@@ -112,6 +162,7 @@ export function TableComponent() {
             hover={true}
             bordered={true}
             size="md"
+            minWidth={1500}
           />
         </div>
       </div>

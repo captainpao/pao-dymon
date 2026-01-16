@@ -53,7 +53,12 @@ export function DiscoverFunds() {
     { key: 'name', header: 'Fund Name', sortable: true },
     { key: 'price', header: 'Price', sortable: true },
     { key: 'currency', header: 'Currency', sortable: true },
-    { key: 'performance', header: 'Performance', sortable: true },
+    { 
+      key: 'performance', 
+      header: 'Performance', 
+      sortable: true, 
+      render: (value: number) => <div className={value > 0 ? 'text-success' : 'text-danger'}>{value < 0 ? -value : value}%{value > 0 ? <FaCaretUp /> : <FaCaretDown />}</div>
+    },
     { key: 'dividendYield', header: 'Dividend Yield', sortable: true },
     { key: 'riskRating', header: 'Risk Rating', sortable: true },
     {
@@ -68,7 +73,7 @@ export function DiscoverFunds() {
     name: fund.name,
     price: `${fund.currency} ${fund.price.toFixed(2)}`,
     currency: fund.currency,
-    performance: `${fund.performance}%`,
+    performance: fund.performance,
     dividendYield: fund.dividendYield,
     riskRating: fund.riskRating,
     actions: 'View'
