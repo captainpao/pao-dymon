@@ -1,5 +1,5 @@
-import React, { useState, useMemo } from 'react';
-import { FaSort, FaSortUp, FaSortDown } from "react-icons/fa";
+import React, { useState, useMemo, useRef, useEffect } from 'react';
+import { FaSort, FaSortUp, FaSortDown, FaColumns, FaBars } from "react-icons/fa";
 
 export type SortDirection = 'asc' | 'desc' | null;
 
@@ -47,6 +47,61 @@ export function PaoTable({
   const [sortKey, setSortKey] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>(null);
   const [selectedRows, setSelectedRows] = useState<RowId[]>([]);
+
+  // Column management state
+  const [columnVisibility, setColumnVisibility] = useState<Record<string, boolean>>(() =>
+    columns.reduce((acc, col) => ({ ...acc, [col.key]: true }), {})
+  );
+  const [columnOrder, setColumnOrder] = useState<string[]>(() =>
+    columns.map(col => col.key)
+  );
+  const [showColumnManager, setShowColumnManager] = useState(false);
+  const columnManagerRef = useRef<HTMLDivElement>(null);
+
+  // Column management functionality
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (columnManagerRef.current && !columnManagerRef.current.contains(event.target as Node)) {
+        setShowColumnManager(false);
+      }
+    };
+
+    if (showColumnManager) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }
+  }, [showColumnManager]);
+
+  const toggleColumnVisibility = (columnKey: string) => {
+    setColumnVisibility(prev => ({
+      ...prev,
+      [columnKey]: !prev[columnKey]
+    }));
+  };
+
+  const handleDragStart = (e: React.DragEvent<HTMLDivElement>, index: number) => {
+    e.dataTransfer.setData('text/plain', index.toString());
+  };
+
+  const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+  };
+
+  const handleDrop = (e: React.DragEvent<HTMLDivElement>, dropIndex: number) => {
+    e.preventDefault();
+    const dragIndex = parseInt(e.dataTransfer.getData('text/plain'), 10);
+
+    if (dragIndex !== dropIndex) {
+      setColumnOrder(prev => {
+        const newOrder = [...prev];
+        const draggedItem = newOrder.splice(dragIndex, 1)[0];
+        newOrder.splice(dropIndex, 0, draggedItem);
+        return newOrder;
+      });
+    }
+  };
 
   const handleSort = (columnKey: string) => {
     if (sortKey === columnKey) {
@@ -119,6 +174,13 @@ export function PaoTable({
     });
   }, [rows, sortKey, sortDirection]);
 
+  // Apply column order and visibility
+  const visibleColumns = useMemo(() => {
+    return columnOrder
+      .map(key => columns.find(col => col.key === key))
+      .filter((col): col is Column => col !== undefined && columnVisibility[col.key]);
+  }, [columns, columnOrder, columnVisibility]);
+
   const sizeClass = size === 'sm' ? 'table-sm' : size === 'lg' ? 'table-lg' : '';
   const tableClass = `table ${bordered ? 'table-bordered' : ''} ${striped ? 'table-striped' : ''} ${hover ? 'table-hover' : ''} ${sizeClass} ${className}`.trim();
 
@@ -129,9 +191,76 @@ export function PaoTable({
   };
 
 
+  const ColumnManager = () => (
+    <div className="d-flex justify-content-end">
+      <div className="position-relative" ref={columnManagerRef}>
+        <button
+          className="btn btn-sm btn-link"
+          title="Manage Columns"
+          onClick={() => setShowColumnManager(!showColumnManager)}
+        >
+          <FaColumns />
+        </button>
+
+        {showColumnManager && (
+          <div
+            className="position-absolute top-100 end-0 bg-white border rounded shadow p-2 mt-1 z-3"
+            style={{ width: '250px', maxHeight: '400px', overflowY: 'auto' }}
+          >
+            <div className="fw-bold mb-2 px-2">Manage Columns</div>
+            {columnOrder.map((colKey, index) => {
+              const column = columns.find(col => col.key === colKey);
+              if (!column) return null;
+
+              return (
+                <div
+                  key={colKey}
+                  className="d-flex align-items-center gap-2 px-2 rounded small"
+                  style={{ cursor: 'grab', border: '1px solid transparent' }}
+                  onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f8f9fa'}
+                  onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+                  onDragStart={(e) => {
+                    e.currentTarget.style.opacity = '0.5';
+                    e.currentTarget.style.cursor = 'grabbing';
+                    e.dataTransfer.effectAllowed = 'move';
+                    handleDragStart(e, index);
+                  }}
+                  onDragEnd={(e) => {
+                    e.currentTarget.style.opacity = '1';
+                    e.currentTarget.style.cursor = 'grab';
+                  }}
+                  draggable
+                  onDragOver={handleDragOver}
+                  onDrop={(e) => handleDrop(e, index)}
+                >
+                  <div style={{ marginTop: '-9px' }}>
+                    <FaBars size={12} />
+                  </div>
+                  <div className="form-check mb-0 flex-grow-1">
+                    <input
+                      type="checkbox"
+                      className="form-check-input"
+                      checked={columnVisibility[colKey]}
+                      onChange={() => toggleColumnVisibility(colKey)}
+                    />
+                    <label className="form-check-label text-nowrap overflow-hidden text-truncate">
+                      {column.header}
+                    </label>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+
   return (
-    <div className="table-responsive overflow-auto">
-      <table className={tableClass} style={{ minWidth: minWidth }}>
+    <div>
+      {ColumnManager()}
+      <div className="table-responsive overflow-auto">
+        <table className={tableClass} style={{ minWidth: minWidth }}>
         <thead>
           <tr>
             {selectable && (
@@ -147,7 +276,7 @@ export function PaoTable({
                 />
               </th>
             )}
-            {columns.map((column) => (
+            {visibleColumns.map((column) => (
               <th
                 key={column.key}
                 style={column.width ? { width: column.width } : {}}
@@ -169,7 +298,7 @@ export function PaoTable({
         <tbody>
           {sortedRows.length === 0 ? (
             <tr>
-              <td colSpan={columns.length + (selectable ? 1 : 0)} className="text-center text-muted">
+              <td colSpan={visibleColumns.length + (selectable ? 1 : 0)} className="text-center text-muted">
                 No data available
               </td>
             </tr>
@@ -190,7 +319,7 @@ export function PaoTable({
                       />
                     </td>
                   )}
-                  {columns.map((column) => (
+                  {visibleColumns.map((column) => (
                     <td key={column.key}>
                       {column.render ? column.render(row[column.key], row) : row[column.key]}
                     </td>
@@ -202,6 +331,7 @@ export function PaoTable({
         </tbody>
       </table>
     </div>
+  </div>
   );
 }
 

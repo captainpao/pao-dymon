@@ -240,6 +240,14 @@ export function TableComponent() {
             <li><strong>Indeterminate State:</strong> The header checkbox shows a line (-) when only some users are selected</li>
             <li><strong>Maintain Selection:</strong> Selections persist when sorting columns</li>
           </ul>
+          <hr className="my-3"/>
+          <h6 className="mb-3">New Feature: Column Management</h6>
+          <ul className="mb-0">
+            <li><strong>Manage Columns:</strong> Click the FaColumns icon in the top-right corner to show/hide columns</li>
+            <li><strong>Reorder Columns:</strong> Drag handles (☰) let you reorder columns by drag & drop</li>
+            <li><strong>Visual Feedback:</strong> Columns highlight on hover during reordering</li>
+            <li><strong>Persistent State:</strong> Column visibility and order remain when selecting rows or sorting</li>
+          </ul>
         </div>
       </div>
     </div>
