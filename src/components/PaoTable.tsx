@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { FaSort, FaSortUp, FaSortDown } from "react-icons/fa";
 
 export type SortDirection = 'asc' | 'desc' | null;
 
@@ -85,9 +86,9 @@ export function PaoTable({
   const tableClass = `table ${bordered ? 'table-bordered' : ''} ${striped ? 'table-striped' : ''} ${hover ? 'table-hover' : ''} ${sizeClass} ${className}`.trim();
 
   const getSortIcon = (direction: SortDirection) => {
-    if (direction === 'asc') return '↑';
-    if (direction === 'desc') return '↓';
-    return '↕';
+    if (direction === 'asc') return <FaSortUp size={16} />;
+    if (direction === 'desc') return <FaSortDown size={16} />;
+    return <FaSort size={16} />;
   };
 
 

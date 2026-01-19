@@ -52,7 +52,6 @@ export function DiscoverFunds() {
   const tableColumns = [
     { key: 'name', header: 'Fund Name', sortable: true },
     { key: 'price', header: 'Price', sortable: true },
-    { key: 'currency', header: 'Currency', sortable: true },
     { 
       key: 'performance', 
       header: 'Performance', 
@@ -72,7 +71,6 @@ export function DiscoverFunds() {
   const tableRows = sortedAndFilteredFunds.map(fund => ({
     name: fund.name,
     price: `${fund.currency} ${fund.price.toFixed(2)}`,
-    currency: fund.currency,
     performance: fund.performance,
     dividendYield: fund.dividendYield,
     riskRating: fund.riskRating,
