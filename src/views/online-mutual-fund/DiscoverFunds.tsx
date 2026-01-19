@@ -188,9 +188,9 @@ export function DiscoverFunds() {
                     <div className='col-6'>
                       <small className='text-muted'>Performance</small>
                       <div className={`fw-semibold ${
-                        fund.performanceType === 'gain' ? 'text-success' : 'text-danger'
+                        fund.performance > 0 ? 'text-success' : 'text-danger'
                       }`}>
-                        {fund.performance < 0 ? -fund.performance : fund.performance}%{fund.performanceType === 'gain' ? <FaCaretUp /> : <FaCaretDown />}
+                        {fund.performance < 0 ? -fund.performance : fund.performance}%{fund.performance > 0 ? <FaCaretUp /> : <FaCaretDown />}
                       </div>
                     </div>
                     <div className='col-6'>
