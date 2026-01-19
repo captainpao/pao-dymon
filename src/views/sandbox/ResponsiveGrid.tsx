@@ -9,7 +9,7 @@ export function ResponsiveGrid() {
     },
     {
       title: 'Card Title',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       button: 'Button'
     },
     {
@@ -34,10 +34,12 @@ export function ResponsiveGrid() {
       <div className='row'>
         {cards.map((card, index) => (
           <div key={index} className='col-12 col-md-6 col-lg-4 col-xl-3 mb-3'>
-            <div className='card'>
+            <div className='card h-100'>
               <div className='card-body'>
                 <h5 className='card-title'>{card.title}</h5>
                 <p className='card-text small'>{card.text}</p>
+              </div>
+              <div className='px-3 pb-3'>
                 <button className='btn btn-primary w-100'>{card.button}</button>
               </div>
             </div>
@@ -47,10 +49,12 @@ export function ResponsiveGrid() {
       <div className='fifteen-row'>
         {cards.map((card, index) => (
           <div key={index} className='fifteen-col-15 fifteen-col-lg-5 fifteen-col-xl-3 mb-3'>
-            <div className='card'>
+            <div className='card h-100'>
               <div className='card-body'>
                 <h5 className='card-title'>{card.title}</h5>
                 <p className='card-text small'>{card.text}</p>
+              </div>
+              <div className='px-3 pb-3'>
                 <button className='btn btn-primary w-100'>{card.button}</button>
               </div>
             </div>
