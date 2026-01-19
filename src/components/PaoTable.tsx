@@ -29,6 +29,8 @@ interface PaoTableProps {
   selectable?: boolean;
   onSelectionChange?: (selectedIds: RowId[]) => void;
   rowIdKey?: string;
+  manageColumns?: boolean;
+  initialColumnVisibility?: Record<string, boolean>;
 }
 
 export function PaoTable({
@@ -42,16 +44,24 @@ export function PaoTable({
   minWidth,
   selectable = false,
   onSelectionChange,
-  rowIdKey = 'id'
+  rowIdKey = 'id',
+  manageColumns = false,
+  initialColumnVisibility
 }: PaoTableProps) {
   const [sortKey, setSortKey] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>(null);
   const [selectedRows, setSelectedRows] = useState<RowId[]>([]);
 
   // Column management state
-  const [columnVisibility, setColumnVisibility] = useState<Record<string, boolean>>(() =>
-    columns.reduce((acc, col) => ({ ...acc, [col.key]: true }), {})
-  );
+  const [columnVisibility, setColumnVisibility] = useState<Record<string, boolean>>(() => {
+    if (initialColumnVisibility) {
+      return columns.reduce((acc, col) => ({
+        ...acc,
+        [col.key]: initialColumnVisibility[col.key] !== undefined ? initialColumnVisibility[col.key] : true
+      }), {});
+    }
+    return columns.reduce((acc, col) => ({ ...acc, [col.key]: true }), {});
+  });
   const [columnOrder, setColumnOrder] = useState<string[]>(() =>
     columns.map(col => col.key)
   );
@@ -73,6 +83,15 @@ export function PaoTable({
       };
     }
   }, [showColumnManager]);
+
+  // Update column order in initialColumnVisibility changes
+ useEffect(() => {
+    if (initialColumnVisibility) {
+      setColumnOrder(prev => {
+        return prev.filter(key => columnVisibility[key] !== false);
+      });
+    }
+  }, [initialColumnVisibility]);
 
   const toggleColumnVisibility = (columnKey: string) => {
     setColumnVisibility(prev => ({
@@ -257,8 +276,8 @@ export function PaoTable({
   );
 
   return (
-    <div>
-      {ColumnManager()}
+    <div style={{ position: 'relative' }}>
+      {manageColumns && ColumnManager()}
       <div className="table-responsive overflow-auto">
         <table className={tableClass} style={{ minWidth: minWidth }}>
         <thead>

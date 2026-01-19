@@ -212,7 +212,7 @@ export function TableComponent() {
       {/* Table with Selection Enabled */}
       <div className="card">
         <div className="card-header">
-          <h5 className="mb-0">Comprehensive User Directory with Selection</h5>
+          <h5 className="mb-0">Comprehensive User Directory with Selection & Column Management</h5>
         </div>
         <div className="card-body">
           <PaoTable
@@ -226,6 +226,7 @@ export function TableComponent() {
             selectable={true}
             onSelectionChange={handleSelectionChange}
             rowIdKey="id"
+            manageColumns={true}
           />
         </div>
       </div>
