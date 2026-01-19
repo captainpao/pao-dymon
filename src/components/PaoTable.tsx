@@ -15,6 +15,8 @@ interface Row {
   [key: string]: any;
 }
 
+type RowId = string | number;
+
 interface PaoTableProps {
   columns: Column[];
   rows: Row[];
@@ -24,6 +26,9 @@ interface PaoTableProps {
   bordered?: boolean;
   size?: 'sm' | 'md' | 'lg';
   minWidth?: string | number;
+  selectable?: boolean;
+  onSelectionChange?: (selectedIds: RowId[]) => void;
+  rowIdKey?: string;
 }
 
 export function PaoTable({
@@ -34,10 +39,14 @@ export function PaoTable({
   hover = true,
   bordered = true,
   size = 'md',
-  minWidth
+  minWidth,
+  selectable = false,
+  onSelectionChange,
+  rowIdKey = 'id'
 }: PaoTableProps) {
   const [sortKey, setSortKey] = useState<string | null>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>(null);
+  const [selectedRows, setSelectedRows] = useState<RowId[]>([]);
 
   const handleSort = (columnKey: string) => {
     if (sortKey === columnKey) {
@@ -59,6 +68,34 @@ export function PaoTable({
     }
     return null;
   };
+
+  // Selection functionality
+  const handleSelectAll = () => {
+    if (!selectable) return;
+
+    if (selectedRows.length === rows.length) {
+      setSelectedRows([]);
+      onSelectionChange?.([]);
+    } else {
+      const allRowIds = rows.map(row => row[rowIdKey]);
+      setSelectedRows(allRowIds);
+      onSelectionChange?.(allRowIds);
+    }
+  };
+
+  const handleSelectRow = (rowId: RowId) => {
+    if (!selectable) return;
+
+    const newSelectedRows = selectedRows.includes(rowId)
+      ? selectedRows.filter(id => id !== rowId)
+      : [...selectedRows, rowId];
+
+    setSelectedRows(newSelectedRows);
+    onSelectionChange?.(newSelectedRows);
+  };
+
+  const isAllSelected = selectable && rows.length > 0 && selectedRows.length === rows.length;
+  const isIndeterminate = selectable && selectedRows.length > 0 && selectedRows.length < rows.length;
 
   const sortedRows = useMemo(() => {
     if (!sortKey || !sortDirection) return rows;
@@ -97,6 +134,19 @@ export function PaoTable({
       <table className={tableClass} style={{ minWidth: minWidth }}>
         <thead>
           <tr>
+            {selectable && (
+              <th style={{ width: '40px' }}>
+                <input
+                  type="checkbox"
+                  className="form-check-input"
+                  checked={isAllSelected}
+                  ref={(el) => {
+                    if (el) el.indeterminate = isIndeterminate;
+                  }}
+                  onChange={handleSelectAll}
+                />
+              </th>
+            )}
             {columns.map((column) => (
               <th
                 key={column.key}
@@ -119,20 +169,35 @@ export function PaoTable({
         <tbody>
           {sortedRows.length === 0 ? (
             <tr>
-              <td colSpan={columns.length} className="text-center text-muted">
+              <td colSpan={columns.length + (selectable ? 1 : 0)} className="text-center text-muted">
                 No data available
               </td>
             </tr>
           ) : (
-            sortedRows.map((row, rowIndex) => (
-              <tr key={rowIndex}>
-                {columns.map((column) => (
-                  <td key={column.key}>
-                    {column.render ? column.render(row[column.key], row) : row[column.key]}
-                  </td>
-                ))}
-              </tr>
-            ))
+            sortedRows.map((row, rowIndex) => {
+              const rowId = row[rowIdKey];
+              const isSelected = selectedRows.includes(rowId);
+
+              return (
+                <tr key={rowIndex}>
+                  {selectable && (
+                    <td>
+                      <input
+                        type="checkbox"
+                        className="form-check-input"
+                        checked={isSelected}
+                        onChange={() => handleSelectRow(rowId)}
+                      />
+                    </td>
+                  )}
+                  {columns.map((column) => (
+                    <td key={column.key}>
+                      {column.render ? column.render(row[column.key], row) : row[column.key]}
+                    </td>
+                  ))}
+                </tr>
+              );
+            })
           )}
         </tbody>
       </table>

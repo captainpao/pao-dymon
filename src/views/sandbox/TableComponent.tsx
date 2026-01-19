@@ -1,6 +1,10 @@
 import { PaoTable } from '../../components/PaoTable';
+import { useState } from 'react';
 
 export function TableComponent() {
+  // State for selected rows
+  const [selectedRows, setSelectedRows] = useState<(string | number)[]>([]);
+
   // Mock columns for the table
   const columns = [
     { key: 'id', header: 'ID', sortable: true, width: '5%' },
@@ -146,13 +150,69 @@ export function TableComponent() {
     }
   ];
 
+  // Handler for selection changes
+  const handleSelectionChange = (selectedIds: (string | number)[]) => {
+    setSelectedRows(selectedIds);
+  };
+
   return (
     <div className='container p-3'>
-      <h2 className="mb-4">Sample Page with PaoTable Component</h2>
+      <h2 className="mb-4">PaoTable Component Demo</h2>
 
+      {/* Selection Status Display */}
+      <div className="alert alert-info mb-4">
+        <div className="d-flex justify-content-between align-items-center">
+          <div>
+            <strong>Selection Feature Demo</strong>
+            <p className="mb-0">Try selecting rows using the checkboxes. The header checkbox supports select all/deselect all functionality.</p>
+          </div>
+          <div className="text-end">
+            <span className="badge bg-primary fs-6">
+              {selectedRows.length} row(s) selected
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Control Panel */}
+      <div className="row mb-3">
+        <div className="col-md-6">
+          <h5>Selected Users:</h5>
+          <div className="p-2 bg-light rounded" style={{ minHeight: '100px' }}>
+            {selectedRows.length > 0 ? (
+              <code className="d-block text-dark">
+                {selectedRows.join(', ')}
+              </code>
+            ) : (
+              <small className="text-muted">No users selected</small>
+            )}
+          </div>
+        </div>
+        <div className="col-md-6">
+          <h5>Selected User Details:</h5>
+          <div className="p-2 bg-light rounded" style={{ minHeight: '100px' }}>
+            {selectedRows.length > 0 ? (
+              <ul className="list-unstyled mb-0">
+                {selectedRows.map(id => {
+                  const user = rows.find(row => row.id === id);
+                  return user ? (
+                    <li key={id} className="mb-1">
+                      <strong>{user.name}</strong> - {user.occupation}
+                    </li>
+                  ) : null;
+                }).filter(Boolean)}
+              </ul>
+            ) : (
+              <small className="text-muted">No user details available</small>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {/* Table with Selection Enabled */}
       <div className="card">
         <div className="card-header">
-          <h5 className="mb-0">Comprehensive User Directory</h5>
+          <h5 className="mb-0">Comprehensive User Directory with Selection</h5>
         </div>
         <div className="card-body">
           <PaoTable
@@ -163,7 +223,23 @@ export function TableComponent() {
             bordered={true}
             size="md"
             minWidth={1500}
+            selectable={true}
+            onSelectionChange={handleSelectionChange}
+            rowIdKey="id"
           />
+        </div>
+      </div>
+
+      {/* Instructions */}
+      <div className="card mt-3">
+        <div className="card-body">
+          <h6 className="mb-3">How to use the selection feature:</h6>
+          <ul className="mb-0">
+            <li><strong>Select Individual Rows:</strong> Click the checkbox next to each user to select them individually</li>
+            <li><strong>Select All:</strong> Click the checkbox in the table header to select/deselect all users at once</li>
+            <li><strong>Indeterminate State:</strong> The header checkbox shows a line (-) when only some users are selected</li>
+            <li><strong>Maintain Selection:</strong> Selections persist when sorting columns</li>
+          </ul>
         </div>
       </div>
     </div>
